@@ -50,5 +50,13 @@ def scrape_all() -> dict[str, list[dict]]:
 
 if __name__ == "__main__":
     import json
+    import os
+    
     data = scrape_all()
-    print(json.dumps(data, indent=2))
+    
+    # Write directly to file with UTF-8 encoding to avoid shell redirection encoding issues (e.g. PowerShell UTF-16)
+    output_file = "catalog.json"
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(data, f, indent=2)
+    
+    logger.info(f"Successfully wrote catalog to {output_file}")

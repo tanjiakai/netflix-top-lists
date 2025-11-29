@@ -24,7 +24,7 @@ jobs:
 
       - name: Run scraper
         run: |
-          python -m scraper.scraper > catalog.json
+          python -m scraper.scraper
 
       - name: Commit and push if changed
         run: |
