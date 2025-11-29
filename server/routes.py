@@ -32,7 +32,8 @@ async def get_catalog(
             "name": f"#{item.get('rank')} {item.get('title')}",
             "poster": item.get("poster"),
             "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10",
-        })\n        
+        })
+        
     return {"metas": metas}
 
 @router.get("/meta/{type}/{id}.json")
