@@ -1,6 +1,7 @@
 import requests
 from .parsers import parse_tudum_page
 from .models import ScrapedItem
+from .resolver import resolve_to_imdb
 import logging
 
 # Configure logging
@@ -41,7 +42,17 @@ def scrape_all() -> dict[str, list[dict]]:
         html = fetch_page(config['url'])
         if html:
             items = parse_tudum_page(html, config['region'], config['type'])
-            results[key] = [item.dict() for item in items]
+            
+            # Resolve IMDB IDs
+            for item in items:
+                imdb_id = resolve_to_imdb(item.title, config['type'])
+                if imdb_id:
+                    logger.info(f"Resolved '{item.title}' to {imdb_id}")
+                    item.id = imdb_id
+                else:
+                    logger.warning(f"Could not resolve '{item.title}', keeping ID {item.id}")
+            
+            results[key] = [item.model_dump() for item in items]
             logger.info(f"Found {len(items)} items for {key}")
         else:
             results[key] = []
