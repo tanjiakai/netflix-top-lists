@@ -32,6 +32,32 @@ async def get_catalog(
             "name": f"#{item.get('rank')} {item.get('title')}",
             "poster": item.get("poster"),
             "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10",
-        })
-        
+        })\n        
     return {"metas": metas}
+
+@router.get("/meta/{type}/{id}.json")
+async def get_meta(
+    type: str = Path(..., description="The type (movie or series)"),
+    id: str = Path(..., description="The item ID")
+):
+    # Load data
+    data = storage.load()
+    
+    # Search all catalogs for this ID
+    for catalog_id, items in data.items():
+        for item in items:
+            if item.get("id") == id and item.get("type") == type:
+                # Found it! Return metadata
+                return {
+                    "meta": {
+                        "id": item.get("id"),
+                        "type": item.get("type"),
+                        "name": item.get("title"),
+                        "poster": item.get("poster"),
+                        "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10 (Malaysia)",
+                        "background": item.get("poster"),
+                    }
+                }
+    
+    # Not found
+    raise HTTPException(status_code=404, detail="Meta not found")

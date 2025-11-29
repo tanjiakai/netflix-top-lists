@@ -20,6 +20,6 @@ MANIFEST = {
             "extra": [{"name": "skip"}]
         }
     ],
-    "resources": ["catalog"],
+    "resources": ["catalog", "meta"],
     "idPrefixes": []
 }
