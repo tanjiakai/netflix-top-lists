@@ -20,11 +20,11 @@ class TMDBClient:
             time.sleep(self.min_request_interval - elapsed)
         self.last_request_time = time.time()
     
-    def search_movie(self, title: str, year: Optional[int] = None) -> Optional[str]:
-        """Search for a movie and return IMDb ID"""
+    def search_movie(self, title: str, year: Optional[int] = None) -> tuple[Optional[str], Optional[str]]:
+        """Search for a movie and return (IMDb ID, Poster Path)"""
         if not self.api_key:
             logger.warning("TMDB_API_KEY not set, skipping IMDb ID lookup")
-            return None
+            return None, None
             
         self._rate_limit()
         
@@ -46,20 +46,23 @@ class TMDBClient:
             data = response.json()
             
             if data.get("results") and len(data["results"]) > 0:
-                # Get the first result's ID
-                tmdb_id = data["results"][0]["id"]
-                return self._get_imdb_id_from_tmdb_id(tmdb_id, "movie")
+                # Get the first result
+                result = data["results"][0]
+                tmdb_id = result["id"]
+                poster_path = result.get("poster_path")
+                imdb_id = self._get_imdb_id_from_tmdb_id(tmdb_id, "movie")
+                return imdb_id, poster_path
                 
         except Exception as e:
             logger.error(f"Error searching for movie '{title}': {e}")
             
-        return None
+        return None, None
     
-    def search_tv(self, title: str, year: Optional[int] = None) -> Optional[str]:
-        """Search for a TV show and return IMDb ID"""
+    def search_tv(self, title: str, year: Optional[int] = None) -> tuple[Optional[str], Optional[str]]:
+        """Search for a TV show and return (IMDb ID, Poster Path)"""
         if not self.api_key:
             logger.warning("TMDB_API_KEY not set, skipping IMDb ID lookup")
-            return None
+            return None, None
             
         self._rate_limit()
         
@@ -81,14 +84,17 @@ class TMDBClient:
             data = response.json()
             
             if data.get("results") and len(data["results"]) > 0:
-                # Get the first result's ID
-                tmdb_id = data["results"][0]["id"]
-                return self._get_imdb_id_from_tmdb_id(tmdb_id, "tv")
+                # Get the first result
+                result = data["results"][0]
+                tmdb_id = result["id"]
+                poster_path = result.get("poster_path")
+                imdb_id = self._get_imdb_id_from_tmdb_id(tmdb_id, "tv")
+                return imdb_id, poster_path
                 
         except Exception as e:
             logger.error(f"Error searching for TV show '{title}': {e}")
             
-        return None
+        return None, None
     
     def _get_imdb_id_from_tmdb_id(self, tmdb_id: int, media_type: str) -> Optional[str]:
         """Get IMDb ID from TMDB ID"""

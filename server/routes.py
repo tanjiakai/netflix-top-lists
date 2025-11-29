@@ -35,9 +35,12 @@ async def get_catalog(
             "name": item.get("title"),  # No rank prefix
         }
         
-        # Prioritize Cinemeta poster (by omitting poster field) if IMDb ID exists
-        # Only fallback to scraped poster if we don't have an IMDb ID
-        if not item.get("imdb_id") and item.get("poster"):
+        # Poster Logic:
+        # 1. Use TMDB poster if available (High quality, standard)
+        # 2. Fallback to scraped poster (Netflix) if no TMDB poster
+        if item.get("tmdb_poster"):
+            meta["poster"] = f"https://image.tmdb.org/t/p/w500{item.get('tmdb_poster')}"
+        elif item.get("poster"):
             meta["poster"] = item.get("poster")
         
         metas.append(meta)
@@ -64,11 +67,18 @@ async def get_meta(
                     "name": item.get("title"),  # No rank
                 }
                 
-                # Prioritize Cinemeta poster (by omitting poster field) if IMDb ID exists
-                # Only fallback to scraped poster if we don't have an IMDb ID
-                if not item.get("imdb_id") and item.get("poster"):
-                    meta_obj["poster"] = item.get("poster")
-                    meta_obj["background"] = item.get("poster")
+                # Poster Logic:
+                # 1. Use TMDB poster if available
+                # 2. Fallback to scraped poster
+                poster_url = None
+                if item.get("tmdb_poster"):
+                    poster_url = f"https://image.tmdb.org/t/p/w500{item.get('tmdb_poster')}"
+                elif item.get("poster"):
+                    poster_url = item.get("poster")
+                    
+                if poster_url:
+                    meta_obj["poster"] = poster_url
+                    meta_obj["background"] = poster_url
                 
                 return {"meta": meta_obj}
     

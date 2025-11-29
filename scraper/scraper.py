@@ -72,15 +72,19 @@ def scrape_all() -> dict[str, list[dict]]:
                 
                 logger.info(f"Looking up IMDb ID for: {item.title}")
                 if config['type'] == 'series':
-                    imdb_id = tmdb_client.search_tv(item.title)
+                    imdb_id, poster_path = tmdb_client.search_tv(item.title)
                 else:
-                    imdb_id = tmdb_client.search_movie(item.title)
+                    imdb_id, poster_path = tmdb_client.search_movie(item.title)
                 
                 if imdb_id:
                     item.imdb_id = imdb_id
                     logger.info(f"Found IMDb ID {imdb_id} for {item.title}")
                 else:
                     logger.warning(f"No IMDb ID found for {item.title}, using custom ID")
+                    
+                if poster_path:
+                    item.tmdb_poster = poster_path
+                    logger.info(f"Found TMDB poster for {item.title}")
             
             results[key] = [item.model_dump() for item in items]
             logger.info(f"Found {len(items)} items for {key}")
