@@ -23,19 +23,21 @@ async def get_catalog(
     data = storage.load()
     items = data.get(id, [])
     
-    # Format for Stremio
+    # Format for Stremio - rank only used for ordering, not display
     metas = []
     for item in items:
         # Use IMDb ID if available, otherwise fall back to custom ID
         meta_id = item.get("imdb_id") or item.get("id", "")
         
-        metas.append({
+        meta = {
             "id": meta_id,
             "type": item.get("type", "movie"),
-            "name": f"#{item.get('rank')} {item.get('title')}",
-            "poster": item.get("poster"),
-            "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10",
-        })
+            "name": item.get("title"),  # No rank prefix
+        }
+        
+        # Don't include poster - let Stremio fetch from cinemeta using IMDb ID
+        
+        metas.append(meta)
         
     return {"metas": metas}
 
@@ -53,17 +55,14 @@ async def get_meta(
             # Match by IMDb ID or custom ID
             if item.get("imdb_id") == id or item.get("id") == id:
                 meta_id = item.get("imdb_id") or item.get("id", "")
-                return {
-                    "meta": {
-                        "id": meta_id,
-                        "type": item.get("type", "movie"),
-                        "name": item.get("title"),
-                        "poster": item.get("poster"),
-                        "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10 ({item.get('region')})",
-                        "runtime": None,  # Not available from Netflix Tudum
-                        "releaseInfo": f"#{item.get('rank')} on Netflix Malaysia",
-                        "background": item.get("poster"),
-                    }
+                meta_obj = {
+                    "id": meta_id,
+                    "type": item.get("type", "movie"),
+                    "name": item.get("title"),  # No rank
                 }
+                
+                # Don't include poster - let Stremio fetch from cinemeta using IMDb ID
+                
+                return {"meta": meta_obj}
     
     raise HTTPException(status_code=404, detail="Meta not found")
