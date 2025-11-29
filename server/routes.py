@@ -33,8 +33,12 @@ async def get_catalog(
             "id": meta_id,
             "type": item.get("type", "movie"),
             "name": item.get("title"),  # No rank prefix
-            "poster": item.get("poster"), # Restored poster
         }
+        
+        # Prioritize Cinemeta poster (by omitting poster field) if IMDb ID exists
+        # Only fallback to scraped poster if we don't have an IMDb ID
+        if not item.get("imdb_id") and item.get("poster"):
+            meta["poster"] = item.get("poster")
         
         metas.append(meta)
         
@@ -60,7 +64,11 @@ async def get_meta(
                     "name": item.get("title"),  # No rank
                 }
                 
-                # Don't include poster - let Stremio fetch from cinemeta using IMDb ID
+                # Prioritize Cinemeta poster (by omitting poster field) if IMDb ID exists
+                # Only fallback to scraped poster if we don't have an IMDb ID
+                if not item.get("imdb_id") and item.get("poster"):
+                    meta_obj["poster"] = item.get("poster")
+                    meta_obj["background"] = item.get("poster")
                 
                 return {"meta": meta_obj}
     
