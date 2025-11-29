@@ -16,6 +16,10 @@ app.include_router(router)
 
 from fastapi.responses import RedirectResponse
 
+@app.get("/favicon.ico", include_in_schema=False)
+async def favicon():
+    return RedirectResponse(url="https://stremio.com/favicon.ico")
+
 @app.get("/", include_in_schema=False)
 async def root():
     return RedirectResponse(url="/manifest.json")
