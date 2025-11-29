@@ -1,8 +1,13 @@
 import requests
 from .parsers import parse_tudum_page
 from .models import ScrapedItem
-from .resolver import resolve_to_imdb
+from .tmdb_client import TMDBClient
 import logging
+import os
+from dotenv import load_dotenv
+
+# Load environment variables from .env file
+load_dotenv()
 
 # Configure logging
 logging.basicConfig(level=logging.INFO)
@@ -36,6 +41,7 @@ def fetch_page(url: str) -> str:
 
 def scrape_all() -> dict[str, list[dict]]:
     results = {}
+    tmdb_client = TMDBClient()
     
     for key, config in SCRAPE_TARGETS.items():
         logger.info(f"Scraping {key} from {config['url']}")
@@ -43,14 +49,19 @@ def scrape_all() -> dict[str, list[dict]]:
         if html:
             items = parse_tudum_page(html, config['region'], config['type'])
             
-            # Resolve IMDB IDs
+            # Fetch IMDb IDs for each item
             for item in items:
-                imdb_id = resolve_to_imdb(item.title, config['type'])
-                if imdb_id:
-                    logger.info(f"Resolved '{item.title}' to {imdb_id}")
-                    item.id = imdb_id
+                logger.info(f"Looking up IMDb ID for: {item.title}")
+                if config['type'] == 'series':
+                    imdb_id = tmdb_client.search_tv(item.title)
                 else:
-                    logger.warning(f"Could not resolve '{item.title}', keeping ID {item.id}")
+                    imdb_id = tmdb_client.search_movie(item.title)
+                
+                if imdb_id:
+                    item.imdb_id = imdb_id
+                    logger.info(f"Found IMDb ID {imdb_id} for {item.title}")
+                else:
+                    logger.warning(f"No IMDb ID found for {item.title}, using custom ID")
             
             results[key] = [item.model_dump() for item in items]
             logger.info(f"Found {len(items)} items for {key}")

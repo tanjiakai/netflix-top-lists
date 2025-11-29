@@ -21,5 +21,5 @@ MANIFEST = {
         }
     ],
     "resources": ["catalog", "meta"],
-    "idPrefixes": []
+    "idPrefixes": ["tt"]
 }

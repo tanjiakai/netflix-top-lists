@@ -10,3 +10,4 @@ class ScrapedItem(BaseModel):
     region: str
     url: str
     description: Optional[str] = None
+    imdb_id: Optional[str] = None  # IMDb ID for Stremio integration

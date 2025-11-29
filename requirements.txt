@@ -6,3 +6,4 @@ lxml
 pydantic
 pytest
 httpx
+python-dotenv

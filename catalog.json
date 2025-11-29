@@ -8,7 +8,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #1 in malaysia series"
+      "description": "Ranked #1 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "dynamitekisslimitedseries",
@@ -18,7 +19,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #2 in malaysia series"
+      "description": "Ranked #2 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "lastsamuraistandingseason1",
@@ -28,7 +30,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #3 in malaysia series"
+      "description": "Ranked #3 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "asyoustoodbylimitedseries",
@@ -38,7 +41,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #4 in malaysia series"
+      "description": "Ranked #4 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "physicalasiaseason1",
@@ -48,7 +52,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #5 in malaysia series"
+      "description": "Ranked #5 in malaysia series",
+      "imdb_id": "tt35664835"
     },
     {
       "id": "mysistershusbandseason1",
@@ -58,7 +63,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #6 in malaysia series"
+      "description": "Ranked #6 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "delhicrimeseason3",
@@ -68,7 +74,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #7 in malaysia series"
+      "description": "Ranked #7 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "onepunchmanseason3",
@@ -78,7 +85,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #8 in malaysia series"
+      "description": "Ranked #8 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "secretsofthesilentwitchseason1",
@@ -88,7 +96,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #9 in malaysia series"
+      "description": "Ranked #9 in malaysia series",
+      "imdb_id": null
     },
     {
       "id": "thebeastinmelimitedseries",
@@ -98,7 +107,8 @@
       "type": "series",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #10 in malaysia series"
+      "description": "Ranked #10 in malaysia series",
+      "imdb_id": null
     }
   ],
   "malaysia_movies": [
@@ -110,7 +120,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #1 in malaysia movie"
+      "description": "Ranked #1 in malaysia movie",
+      "imdb_id": null
     },
     {
       "id": "legasibombathemovie",
@@ -120,7 +131,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #2 in malaysia movie"
+      "description": "Ranked #2 in malaysia movie",
+      "imdb_id": "tt28075760"
     },
     {
       "id": "inyourdreams",
@@ -130,7 +142,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #3 in malaysia movie"
+      "description": "Ranked #3 in malaysia movie",
+      "imdb_id": "tt27604215"
     },
     {
       "id": "teeyaiborntobebad",
@@ -140,7 +153,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #4 in malaysia movie"
+      "description": "Ranked #4 in malaysia movie",
+      "imdb_id": "tt35669044"
     },
     {
       "id": "assalamualaikumbaitullah",
@@ -150,7 +164,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #5 in malaysia movie"
+      "description": "Ranked #5 in malaysia movie",
+      "imdb_id": "tt37317285"
     },
     {
       "id": "thereturningdead",
@@ -160,7 +175,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #6 in malaysia movie"
+      "description": "Ranked #6 in malaysia movie",
+      "imdb_id": "tt0079801"
     },
     {
       "id": "kpopdemonhunters",
@@ -170,7 +186,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #7 in malaysia movie"
+      "description": "Ranked #7 in malaysia movie",
+      "imdb_id": "tt14205554"
     },
     {
       "id": "frankenstein",
@@ -180,7 +197,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #8 in malaysia movie"
+      "description": "Ranked #8 in malaysia movie",
+      "imdb_id": "tt1312221"
     },
     {
       "id": "jollyllb3",
@@ -190,7 +208,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #9 in malaysia movie"
+      "description": "Ranked #9 in malaysia movie",
+      "imdb_id": "tt27996020"
     },
     {
       "id": "assalamualaikumbeijing2lostinningxia",
@@ -200,7 +219,8 @@
       "type": "movie",
       "region": "malaysia",
       "url": "",
-      "description": "Ranked #10 in malaysia movie"
+      "description": "Ranked #10 in malaysia movie",
+      "imdb_id": "tt15000966"
     }
   ]
 }

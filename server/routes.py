@@ -26,8 +26,11 @@ async def get_catalog(
     # Format for Stremio
     metas = []
     for item in items:
+        # Use IMDb ID if available, otherwise fall back to custom ID
+        meta_id = item.get("imdb_id") or item.get("id", "")
+        
         metas.append({
-            "id": item.get("id", ""),
+            "id": meta_id,
             "type": item.get("type", "movie"),
             "name": f"#{item.get('rank')} {item.get('title')}",
             "poster": item.get("poster"),
@@ -39,26 +42,28 @@ async def get_catalog(
 @router.get("/meta/{type}/{id}.json")
 async def get_meta(
     type: str = Path(..., description="The type (movie or series)"),
-    id: str = Path(..., description="The item ID")
+    id: str = Path(..., description="The IMDb ID or custom ID")
 ):
     # Load data
     data = storage.load()
     
-    # Search all catalogs for this ID
-    for catalog_id, items in data.items():
-        for item in items:
-            if item.get("id") == id and item.get("type") == type:
-                # Found it! Return metadata
+    # Search through all catalogs for the item
+    for catalog_items in data.values():
+        for item in catalog_items:
+            # Match by IMDb ID or custom ID
+            if item.get("imdb_id") == id or item.get("id") == id:
+                meta_id = item.get("imdb_id") or item.get("id", "")
                 return {
                     "meta": {
-                        "id": item.get("id"),
-                        "type": item.get("type"),
+                        "id": meta_id,
+                        "type": item.get("type", "movie"),
                         "name": item.get("title"),
                         "poster": item.get("poster"),
-                        "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10 (Malaysia)",
+                        "description": item.get("description") or f"Ranked #{item.get('rank')} on Netflix Top 10 ({item.get('region')})",
+                        "runtime": None,  # Not available from Netflix Tudum
+                        "releaseInfo": f"#{item.get('rank')} on Netflix Malaysia",
                         "background": item.get("poster"),
                     }
                 }
     
-    # Not found
     raise HTTPException(status_code=404, detail="Meta not found")
