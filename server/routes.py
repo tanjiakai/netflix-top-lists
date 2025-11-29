@@ -33,9 +33,8 @@ async def get_catalog(
             "id": meta_id,
             "type": item.get("type", "movie"),
             "name": item.get("title"),  # No rank prefix
+            "poster": item.get("poster"), # Restored poster
         }
-        
-        # Don't include poster - let Stremio fetch from cinemeta using IMDb ID
         
         metas.append(meta)
         

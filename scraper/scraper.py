@@ -39,6 +39,19 @@ def fetch_page(url: str) -> str:
         logger.error(f"Failed to fetch {url}: {e}")
         return ""
 
+import re
+
+def clean_title(title: str) -> str:
+    """
+    Clean title by removing specific suffixes like 'Season X', 'Limited Series', etc.
+    Only removes the part after the colon if it matches these patterns.
+    """
+    # Pattern to match ": Season X", ": Limited Series", etc.
+    # We look for a colon, optional whitespace, then the specific keywords
+    pattern = r":\s*(Season\s+\d+|Limited\s+Series|Volume\s+\d+|Part\s+\d+|Chapter\s+\d+).*"
+    cleaned = re.sub(pattern, "", title, flags=re.IGNORECASE)
+    return cleaned.strip()
+
 def scrape_all() -> dict[str, list[dict]]:
     results = {}
     tmdb_client = TMDBClient()
@@ -51,6 +64,12 @@ def scrape_all() -> dict[str, list[dict]]:
             
             # Fetch IMDb IDs for each item
             for item in items:
+                # Clean title first (remove "Season X" etc.)
+                original_title = item.title
+                item.title = clean_title(original_title)
+                if item.title != original_title:
+                    logger.info(f"Cleaned title: '{original_title}' -> '{item.title}'")
+                
                 logger.info(f"Looking up IMDb ID for: {item.title}")
                 if config['type'] == 'series':
                     imdb_id = tmdb_client.search_tv(item.title)
