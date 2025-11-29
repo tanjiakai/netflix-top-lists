@@ -35,3 +35,37 @@ async def get_catalog(
         })
         
     return {"metas": metas}
+
+@router.get("/meta/{type}/{id}.json")
+async def get_meta(
+    type: str = Path(..., description="The type of meta (movie or series)"),
+    id: str = Path(..., description="The meta ID")
+):
+    # Load data
+    data = storage.load()
+    
+    # Search for the item in all catalogs
+    found_item = None
+    for catalog_id, items in data.items():
+        for item in items:
+            if item.get("id") == id:
+                found_item = item
+                break
+        if found_item:
+            break
+            
+    if not found_item:
+        raise HTTPException(status_code=404, detail="Meta not found")
+        
+    meta = {
+        "id": found_item.get("id"),
+        "type": found_item.get("type"),
+        "name": found_item.get("title"),
+        "poster": found_item.get("poster"),
+        "description": found_item.get("description"),
+        "background": found_item.get("poster"), # Use poster as background for now
+        "genres": ["Netflix", "Top 10"],
+        "releaseInfo": f"Rank #{found_item.get('rank')}"
+    }
+        
+    return {"meta": meta}
