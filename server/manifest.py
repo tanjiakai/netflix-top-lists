@@ -8,15 +8,15 @@ MANIFEST = {
     "types": ["movie", "series"],
     "catalogs": [
         {
-            "type": "series",
-            "id": "malaysia_tv",
-            "name": "Netflix Top 10 TV (MY)",
+            "type": "movie",
+            "id": "malaysia_movies",
+            "name": "Netflix: Top in Malaysia Today",
             "extra": [{"name": "skip"}]
         },
         {
-            "type": "movie",
-            "id": "malaysia_movies",
-            "name": "Netflix Top 10 Movies (MY)",
+            "type": "series",
+            "id": "malaysia_tv",
+            "name": "Netflix: Top in Malaysia Today",
             "extra": [{"name": "skip"}]
         }
     ],

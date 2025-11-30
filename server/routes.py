@@ -9,11 +9,7 @@ storage = JsonStorage()
 async def get_manifest():
     return MANIFEST
 
-@router.get("/catalog/{type}/{id}.json")
-async def get_catalog(
-    type: str = Path(..., description="The type of catalog (movie or series)"),
-    id: str = Path(..., description="The catalog ID (e.g., malaysia_tv)")
-):
+async def get_catalog_response(type: str, id: str, skip: int = 0):
     # Validate catalog ID
     valid_ids = [c["id"] for c in MANIFEST["catalogs"]]
     if id not in valid_ids:
@@ -22,6 +18,9 @@ async def get_catalog(
     # Load data
     data = storage.load()
     items = data.get(id, [])
+    
+    # Apply pagination
+    items = items[skip:]
     
     # Format for Stremio - rank only used for ordering, not display
     metas = []
@@ -46,6 +45,31 @@ async def get_catalog(
         metas.append(meta)
         
     return {"metas": metas}
+
+@router.get("/catalog/{type}/{id}.json")
+async def get_catalog(
+    type: str = Path(..., description="The type of catalog (movie or series)"),
+    id: str = Path(..., description="The catalog ID (e.g., malaysia_tv)")
+):
+    return await get_catalog_response(type, id)
+
+@router.get("/catalog/{type}/{id}/{extra}.json")
+async def get_catalog_extra(
+    type: str = Path(..., description="The type of catalog (movie or series)"),
+    id: str = Path(..., description="The catalog ID (e.g., malaysia_tv)"),
+    extra: str = Path(..., description="Extra parameters like skip=10")
+):
+    skip = 0
+    if extra:
+        params = extra.split('&')
+        for param in params:
+            if param.startswith('skip='):
+                try:
+                    skip = int(param.split('=')[1])
+                except ValueError:
+                    pass
+    
+    return await get_catalog_response(type, id, skip)
 
 @router.get("/meta/{type}/{id}.json")
 async def get_meta(
