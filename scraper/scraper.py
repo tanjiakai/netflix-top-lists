@@ -1,10 +1,11 @@
 import requests
-from .parsers import parse_tudum_page
+from .parsers import parse_flixpatrol_page
 from .models import ScrapedItem
 from .tmdb_client import TMDBClient
 import logging
 import os
 from dotenv import load_dotenv
+from datetime import datetime
 
 # Load environment variables from .env file
 load_dotenv()
@@ -13,14 +14,17 @@ load_dotenv()
 logging.basicConfig(level=logging.INFO)
 logger = logging.getLogger(__name__)
 
+# Generate today's date in YYYY-MM-DD format
+today = datetime.now().strftime("%Y-%m-%d")
+
 SCRAPE_TARGETS = {
     "malaysia_tv": {
-        "url": "https://www.netflix.com/tudum/top10/malaysia/tv",
+        "url": f"https://flixpatrol.com/top10/netflix/malaysia/{today}/",
         "type": "series",
         "region": "malaysia"
     },
     "malaysia_movies": {
-        "url": "https://www.netflix.com/tudum/top10/malaysia",
+        "url": f"https://flixpatrol.com/top10/netflix/malaysia/{today}/",
         "type": "movie",
         "region": "malaysia"
     }
@@ -29,8 +33,16 @@ SCRAPE_TARGETS = {
 def fetch_page(url: str) -> str:
     try:
         headers = {
-            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36",
-            "Accept-Encoding": "gzip, deflate"
+            "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/131.0.0.0 Safari/537.36",
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.9",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+            "Sec-Fetch-Dest": "document",
+            "Sec-Fetch-Mode": "navigate",
+            "Sec-Fetch-Site": "none",
+            "Cache-Control": "max-age=0"
         }
         response = requests.get(url, timeout=10, headers=headers)
         response.raise_for_status()
@@ -60,7 +72,7 @@ def scrape_all() -> dict[str, list[dict]]:
         logger.info(f"Scraping {key} from {config['url']}")
         html = fetch_page(config['url'])
         if html:
-            items = parse_tudum_page(html, config['region'], config['type'])
+            items = parse_flixpatrol_page(html, config['region'], config['type'])
             
             # Fetch IMDb IDs for each item
             for item in items:

@@ -2,53 +2,68 @@ from bs4 import BeautifulSoup
 from .models import ScrapedItem
 import re
 
-def parse_tudum_page(html: str, region: str, media_type: str) -> list[ScrapedItem]:
+def parse_flixpatrol_page(html: str, region: str, media_type: str) -> list[ScrapedItem]:
     soup = BeautifulSoup(html, 'lxml')
     items = []
     
-    cards = soup.find_all("div", attrs={"data-uia": "top10-card"})
+    # Determine which section heading to find based on media_type
+    if media_type == "movie":
+        section_heading = "TOP 10 Movies"
+    else:  # series
+        section_heading = "TOP 10 TV Shows"
     
-    for card in cards:
+    # Find the h3 heading with the section name
+    heading = soup.find('h3', string=section_heading)
+    if not heading:
+        # Try case-insensitive regex search
+        heading = soup.find('h3', string=re.compile(section_heading, re.IGNORECASE))
+    
+    if not heading:
+        return items
+    
+    # Find the parent card div and locate the table within it
+    card_div = heading.find_parent('div', class_='card')
+    if not card_div:
+        return items
+    
+    # Find the table within the card
+    table = card_div.find('table')
+    if not table:
+        return items
+    
+    # Find all table rows
+    rows = table.find('tbody').find_all('tr', class_='table-group')
+    
+    # Parse each row
+    for idx, row in enumerate(rows[:10], start=1):
         try:
-            # Title is in the alt of the first image (logo)
-            img = card.find("img")
-            if not img or not img.get("alt"):
+            # Find the link within the row
+            link = row.find('a', href=re.compile(r'^/title/'))
+            if not link:
                 continue
             
-            title = img.get("alt")
+            title = link.get_text (strip=True)
+            if not title:
+                continue
             
-            # Rank
-            # Look for text like "#1 in Shows"
-            rank = 0
-            rank_container = card.find(string=re.compile(r"#\d+ in"))
-            if rank_container:
-                match = re.search(r"#(\d+)", rank_container)
-                if match:
-                    rank = int(match.group(1))
-            
-            # Poster (Background Image)
-            poster = ""
-            style = card.get("style", "")
-            # Extract url(...)
-            match = re.search(r"url\((.*?)\)", style)
-            if match:
-                poster = match.group(1)
-            
-            # ID generation
+            # Generate ID from title
             item_id = re.sub(r'[^a-z0-9]', '', title.lower())
+            
+            # FlixPatrol doesn't provide posters in the list, leave empty
+            poster = ""
             
             items.append(ScrapedItem(
                 id=item_id,
                 title=title,
                 poster=poster,
-                rank=rank,
+                rank=idx,
                 type=media_type,
                 region=region,
-                url="", 
-                description=f"Ranked #{rank} in {region} {media_type}"
+                url=f"https://flixpatrol.com{link.get('href', '')}",
+                description=f"Ranked #{idx} in {region} {media_type}"
             ))
         except Exception as e:
-            print(f"Error parsing card: {e}")
+            print(f"Error parsing row: {e}")
             continue
-            
+    
     return items
