@@ -56,9 +56,18 @@ guessed** — a wrong ID displays the wrong film and pulls the wrong streams, wh
 worse than no ID. Currently 16 of 20 resolve; the rest are new local releases not yet
 in either index. They still appear in the catalog, just without streams.
 
-Items that resolve carry no poster of their own, so Stremio's Cinemeta supplies the
-artwork and metadata. Unresolved items keep the JustWatch poster, since Cinemeta has
-nothing to match.
+### Posters
+
+Every item carries its own poster. Stremio renders catalog rows from the poster in the
+catalog response and does **not** merge Cinemeta artwork into them, so an item without
+one shows a blank placeholder. Whichever source resolved the title supplies the
+artwork, falling back to `images.metahub.space` for any IMDb ID that arrives without
+one.
+
+Titles that resolve to no ID *and* that JustWatch has never heard of end up with no
+poster — currently 2 of 20, both brand-new local releases. Netflix's own artwork would
+cover them, but it is only reachable by parsing the embedded JSON on the Tudum page,
+which is far more fragile than the TSV.
 
 ### Freshness guard
 

@@ -18,9 +18,16 @@ def test_poster_url_substitutes_placeholders():
     assert resolver.poster_url(None) == ""
 
 
-def test_prefers_justwatch_imdb_id(monkeypatch):
-    stub_lookups(monkeypatch, justwatch=("tt123", 2026, "poster"))
-    assert resolver.resolve("A Film", "movie") == ("tt123", "")
+def test_prefers_justwatch_imdb_id_and_keeps_its_poster(monkeypatch):
+    stub_lookups(monkeypatch, justwatch=("tt123", 2026, "https://jw/poster.jpg"))
+    assert resolver.resolve("A Film", "movie") == ("tt123", "https://jw/poster.jpg")
+
+
+def test_falls_back_to_metahub_when_no_poster_available(monkeypatch):
+    stub_lookups(monkeypatch, justwatch=("tt123", 2026, ""))
+    imdb_id, poster = resolver.resolve("A Film", "movie")
+    assert imdb_id == "tt123"
+    assert poster == "https://images.metahub.space/poster/medium/tt123/img"
 
 
 def test_falls_back_to_cinemeta_matching_year(monkeypatch):
@@ -28,19 +35,26 @@ def test_falls_back_to_cinemeta_matching_year(monkeypatch):
         monkeypatch,
         justwatch=(None, 2016, ""),
         cinemeta=[
-            {"name": "The Magnificent Seven", "releaseInfo": "1960", "id": "tt0054047"},
-            {"name": "The Magnificent Seven", "releaseInfo": "2016", "id": "tt2404435"},
+            {"name": "The Magnificent Seven", "releaseInfo": "1960",
+             "id": "tt0054047", "poster": "https://old.jpg"},
+            {"name": "The Magnificent Seven", "releaseInfo": "2016",
+             "id": "tt2404435", "poster": "https://new.jpg"},
         ],
     )
-    assert resolver.resolve("The Magnificent Seven", "movie") == ("tt2404435", "")
+    assert resolver.resolve("The Magnificent Seven", "movie") == (
+        "tt2404435", "https://new.jpg"
+    )
 
 
-def test_accepts_unique_cinemeta_match(monkeypatch):
+def test_accepts_unique_cinemeta_match_with_its_poster(monkeypatch):
     stub_lookups(
         monkeypatch,
-        cinemeta=[{"name": "Mousetrap", "releaseInfo": "2026", "id": "tt36996011"}],
+        cinemeta=[{"name": "Mousetrap", "releaseInfo": "2026",
+                   "id": "tt36996011", "poster": "https://cm/poster.jpg"}],
     )
-    assert resolver.resolve("Mousetrap", "series") == ("tt36996011", "")
+    assert resolver.resolve("Mousetrap", "series") == (
+        "tt36996011", "https://cm/poster.jpg"
+    )
 
 
 def test_ambiguous_match_is_left_unresolved(monkeypatch):
@@ -61,9 +75,16 @@ def test_unmatched_title_keeps_justwatch_poster(monkeypatch):
     assert resolver.resolve("Unknown Title", "movie") == (None, "https://poster")
 
 
-def test_cinemeta_only_matches_exact_names(monkeypatch):
-    stub_lookups(
-        monkeypatch,
-        cinemeta=[],  # _cinemeta_exact already filters; nothing exact means nothing
-    )
-    assert resolver.resolve("Something", "movie") == (None, "")
+def test_every_resolved_item_gets_a_poster(monkeypatch):
+    """Stremio shows a blank placeholder for any catalog item without a poster."""
+    cases = [
+        (("tt1", 2026, ""), []),
+        (("tt2", 2026, "https://jw.jpg"), []),
+        ((None, 2026, ""), [{"name": "X", "releaseInfo": "2026", "id": "tt3"}]),
+        ((None, None, ""), [{"name": "X", "releaseInfo": "2026", "id": "tt4",
+                             "poster": "https://cm.jpg"}]),
+    ]
+    for justwatch, cinemeta in cases:
+        stub_lookups(monkeypatch, justwatch=justwatch, cinemeta=cinemeta)
+        imdb_id, poster = resolver.resolve("X", "movie")
+        assert imdb_id and poster, f"{justwatch} / {cinemeta} produced {imdb_id!r}, {poster!r}"

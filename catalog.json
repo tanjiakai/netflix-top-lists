@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T09:09:45+00:00",
+  "updated_at": "2026-09-13T09:26:32+00:00",
   "week": "2026-09-06",
   "catalogs": {
     "malaysia_movies": [
@@ -18,7 +18,7 @@
       {
         "id": "tt28363783",
         "title": "Alpha",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/346814027/s718/alpha-2026.jpg",
         "rank": 2,
         "type": "movie",
         "region": "malaysia",
@@ -30,7 +30,7 @@
       {
         "id": "tt41793327",
         "title": "Nar'Sata: Sekutu Setan",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/350063161/s718/narsata-sekutu-setan.jpg",
         "rank": 3,
         "type": "movie",
         "region": "malaysia",
@@ -42,7 +42,7 @@
       {
         "id": "tt11561116",
         "title": "The Whisper Man",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/347329182/s718/the-whisper-man.jpg",
         "rank": 4,
         "type": "movie",
         "region": "malaysia",
@@ -54,7 +54,7 @@
       {
         "id": "tt1656190",
         "title": "Safe",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/57750458/s718/safe.jpg",
         "rank": 5,
         "type": "movie",
         "region": "malaysia",
@@ -78,7 +78,7 @@
       {
         "id": "tt38689537",
         "title": "Perjanjian Setan",
-        "poster": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOGYwM2FkMTEtZmZkMi00MjkyLWFkMmEtNGFiMDk2MDMyOGM1XkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 7,
         "type": "movie",
         "region": "malaysia",
@@ -90,7 +90,7 @@
       {
         "id": "tt39140092",
         "title": "5 Bomoh",
-        "poster": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2IwNDM3YTItYzgxYy00YjQxLWE4OGEtNjIwNzY2MzgxOTA2XkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 8,
         "type": "movie",
         "region": "malaysia",
@@ -102,7 +102,7 @@
       {
         "id": "tt1150934",
         "title": "Anacondas: Trail of Blood",
-        "poster": "",
+        "poster": "https://images.metahub.space/poster/small/tt1150934/img",
         "rank": 9,
         "type": "movie",
         "region": "malaysia",
@@ -114,7 +114,7 @@
       {
         "id": "tt2404435",
         "title": "The Magnificent Seven",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/972579/s718/the-magnificent-seven.jpg",
         "rank": 10,
         "type": "movie",
         "region": "malaysia",
@@ -128,7 +128,7 @@
       {
         "id": "tt36996011",
         "title": "Mousetrap",
-        "poster": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWIwMWVhNTQtOGQ4Ny00MGFkLThjNzktZWVhNzI4YzFlMGE1XkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 1,
         "type": "series",
         "region": "malaysia",
@@ -152,7 +152,7 @@
       {
         "id": "tt37884717",
         "title": "The Early Spring",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/350317386/s718/the-early-spring.jpg",
         "rank": 3,
         "type": "series",
         "region": "malaysia",
@@ -164,7 +164,7 @@
       {
         "id": "tt39368345",
         "title": "Four Hands, Two Sonatas",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/348920823/s718/four-hands.jpg",
         "rank": 4,
         "type": "series",
         "region": "malaysia",
@@ -176,7 +176,7 @@
       {
         "id": "tt36955608",
         "title": "Our Sticky Love",
-        "poster": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BY2E2NDc3MWEtMDQ2NC00Y2ZhLTg2ZWEtZWI4OWY3NjI0MDBiXkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 5,
         "type": "series",
         "region": "malaysia",
@@ -188,7 +188,7 @@
       {
         "id": "tt44113382",
         "title": "Death of the Pastor's Wife",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/348327093/s718/death-of-the-pastors-wife.jpg",
         "rank": 6,
         "type": "series",
         "region": "malaysia",
@@ -200,7 +200,7 @@
       {
         "id": "tt2976010",
         "title": "Upin&Ipin",
-        "poster": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMDEyMTM4YWUtZDQ5Ni00NTk3LThhNzktMDUzYjc4OWNkNTNmXkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 7,
         "type": "series",
         "region": "malaysia",
@@ -212,7 +212,7 @@
       {
         "id": "tt40247521",
         "title": "Spooky in Love",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/348317077/s718/spooky-in-love.jpg",
         "rank": 8,
         "type": "series",
         "region": "malaysia",
@@ -236,7 +236,7 @@
       {
         "id": "tt34809853",
         "title": "Teach You a Lesson",
-        "poster": "",
+        "poster": "https://images.justwatch.com/poster/345857669/s718/teach-you-a-lesson.jpg",
         "rank": 10,
         "type": "series",
         "region": "malaysia",

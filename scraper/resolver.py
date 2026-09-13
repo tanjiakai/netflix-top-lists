@@ -16,6 +16,7 @@ logger = logging.getLogger(__name__)
 
 CINEMETA_URL = "https://v3-cinemeta.strem.io"
 JUSTWATCH_URL = "https://apis.justwatch.com/graphql"
+METAHUB_URL = "https://images.metahub.space"
 IMAGE_BASE = "https://images.justwatch.com"
 POSTER_PROFILE = "s718"
 POSTER_FORMAT = "jpg"
@@ -112,25 +113,34 @@ def _cinemeta_exact(title: str, media_type: str) -> list[dict]:
     return [m for m in metas if normalize(m.get("name")) == normalize(title)]
 
 
+def metahub_poster(imdb_id: str) -> str:
+    return f"{METAHUB_URL}/poster/medium/{imdb_id}/img"
+
+
 def resolve(title: str, media_type: str, country: str = "MY") -> tuple[str | None, str]:
-    """Returns (imdb_id or None, poster_url)."""
+    """Returns (imdb_id or None, poster_url).
+
+    Every item needs its own poster: Stremio renders catalog rows from the
+    poster in the catalog response and does not merge Cinemeta artwork into
+    them, so an item without one shows a blank placeholder.
+    """
     imdb_id, year, poster = _justwatch(title, media_type, country)
     if imdb_id:
-        return imdb_id, ""
+        return imdb_id, poster or metahub_poster(imdb_id)
 
     candidates = _cinemeta_exact(title, media_type)
+    matches = [
+        m for m in candidates if year and str(year) in (m.get("releaseInfo") or "")
+    ]
+    if not matches and len(candidates) == 1:
+        matches = candidates
 
-    if year:
-        for meta in candidates:
-            if str(year) in (meta.get("releaseInfo") or ""):
-                return meta["id"], ""
-
-    if len(candidates) == 1:
-        return candidates[0]["id"], ""
+    if matches:
+        meta = matches[0]
+        return meta["id"], meta.get("poster") or poster or metahub_poster(meta["id"])
 
     if len(candidates) > 1:
         logger.info("Ambiguous match for %r (%d candidates), leaving unresolved",
                     title, len(candidates))
 
-    # Without an IMDb ID, Cinemeta cannot supply artwork, so keep JustWatch's.
     return None, poster or ""
