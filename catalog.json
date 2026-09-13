@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T10:54:43+00:00",
+  "updated_at": "2026-09-13T11:04:30+00:00",
   "week": "2026-09-06",
   "catalogs": {
     "malaysia_movies": [
@@ -140,7 +140,7 @@
       {
         "id": "bulan-henti-bicara",
         "title": "Bulan Henti Bicara",
-        "poster": "",
+        "poster": "https://image.tmdb.org/t/p/w500/cHoHUZxWnfVZPBeGCY4nzOKxkZl.jpg",
         "rank": 2,
         "type": "series",
         "region": "malaysia",
