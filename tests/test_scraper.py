@@ -26,6 +26,8 @@ def horror_item(media_type="movie"):
 @pytest.fixture(autouse=True)
 def stub_network(monkeypatch):
     """Every scraper.main() test must stay offline."""
+    # A developer with a real key exported would otherwise hit TMDB here.
+    monkeypatch.delenv("TMDB_API_KEY", raising=False)
     monkeypatch.setattr(scraper, "fetch_top10", lambda country: fake_rows())
     monkeypatch.setattr(scraper, "resolve", lambda *a, **k: ("tt1", "https://p.jpg"))
     monkeypatch.setattr(

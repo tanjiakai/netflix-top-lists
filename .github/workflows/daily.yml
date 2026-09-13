@@ -37,6 +37,10 @@ jobs:
       # empty, so a bad upstream day fails the run instead of blanking the add-on.
       - name: Scrape Netflix Top 10
         run: python -m scraper.scraper
+        env:
+          # Optional: poster lookup of last resort. Absent, those titles fall
+          # back to a generated tile rather than failing the build.
+          TMDB_API_KEY: ${{ secrets.TMDB_API_KEY }}
 
       - name: Build static add-on
         run: python build_site.py

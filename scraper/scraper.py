@@ -7,6 +7,7 @@ from datetime import datetime, timezone
 from .models import ScrapedItem
 from .resolver import resolve
 from .shudder import fetch_horror
+from .tmdb import search_poster
 from .tudum import fetch_top10
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -40,6 +41,11 @@ def build_items(media_type: str, rows: list[dict]) -> list[ScrapedItem]:
             logger.info("%s -> %s", title, imdb_id)
         else:
             logger.warning("Unresolved: %s", title)
+
+        if not poster:
+            poster = search_poster(title, media_type)
+        if not poster:
+            logger.warning("No artwork anywhere for %s", title)
 
         weeks = row["weeks_in_top10"]
         items.append(

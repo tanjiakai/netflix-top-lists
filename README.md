@@ -96,9 +96,15 @@ one shows a blank placeholder. Whichever source resolved the title supplies the
 artwork, falling back to `images.metahub.space` for any IMDb ID that arrives without
 one.
 
-Titles that resolve to no ID *and* that JustWatch has never heard of have no artwork
-anywhere, so `build_site.py` generates a 2:3 SVG tile carrying the title — currently
-1 of 20.
+For a title that resolves to no ID *and* is unknown to JustWatch, **TMDB** is tried as
+a last resort, in [scraper/tmdb.py](scraper/tmdb.py). TMDB is used for artwork only,
+never for IMDb IDs — it is the weakest identity signal of the three, and a wrong ID is
+worse than a missing one.
+
+TMDB needs a free API key in `TMDB_API_KEY`, set as a repository secret. It is
+**optional**: without it that lookup returns nothing and the build carries on.
+
+If nothing has artwork, `build_site.py` generates a 2:3 SVG tile carrying the title.
 
 Netflix cannot fill that gap despite these being Netflix titles: neither the Tudum
 chart nor its public title pages expose portrait art. Every artwork type they publish
@@ -138,3 +144,8 @@ refreshed `catalog.json`, and deploys `dist/` to GitHub Pages.
 
 The daily run is deliberate even though Netflix publishes weekly — it picks up the new
 chart the day it appears without needing to track Netflix's schedule.
+
+**Optional secret:** add a free [TMDB](https://www.themoviedb.org/settings/api) key as
+a repository secret named `TMDB_API_KEY` (*Settings → Secrets and variables →
+Actions*) to fill in posters for titles missing from IMDb-backed indexes. Everything
+works without it; those titles just get a generated tile.

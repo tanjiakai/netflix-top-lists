@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T10:31:01+00:00",
+  "updated_at": "2026-09-13T10:54:43+00:00",
   "week": "2026-09-06",
   "catalogs": {
     "malaysia_movies": [
@@ -492,34 +492,10 @@
     ],
     "shudder_horror_new_movies": [
       {
-        "id": "tt35050712",
-        "title": "Saccharine",
-        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 1,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/saccharine",
-        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-        "imdb_id": "tt35050712",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 3,
+        "rank": 1,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
@@ -528,22 +504,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt36647890",
-        "title": "The Mortuary Assistant",
-        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 4,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
-        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
-        "imdb_id": "tt36647890",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/346162622/s718/penny-lane-is-dead.jpg",
-        "rank": 5,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -552,15 +516,51 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt35050712",
+        "title": "Saccharine",
+        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
+        "rank": 3,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/saccharine",
+        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+        "imdb_id": "tt35050712",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt29550683",
         "title": "Whistle",
         "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 6,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/whistle-2026",
         "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
         "imdb_id": "tt29550683",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt36647890",
+        "title": "The Mortuary Assistant",
+        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
+        "rank": 6,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
+        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
+        "imdb_id": "tt36647890",
         "weeks_in_top10": null
       },
       {
