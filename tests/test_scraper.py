@@ -35,8 +35,8 @@ def stub_network(monkeypatch):
     )
 
 
-def test_slug_handles_punctuation():
-    assert scraper.slug("Nar'Sata: Sekutu Setan") == "nar-sata-sekutu-setan"
+def test_slug_handles_punctuation_and_carries_the_prefix():
+    assert scraper.slug("Nar'Sata: Sekutu Setan") == "tl-nar-sata-sekutu-setan"
 
 
 def test_writes_every_catalogue_with_the_week(monkeypatch, tmp_path):
@@ -58,7 +58,7 @@ def test_unresolved_title_falls_back_to_slug_id(monkeypatch, tmp_path):
     written = json.loads((tmp_path / "catalog.json").read_text(encoding="utf-8"))
     item = written["catalogs"]["malaysia_movies"][0]
     assert item["imdb_id"] is None
-    assert item["id"] == "a-film"
+    assert item["id"] == "tl-a-film"
     assert item["poster"] == "https://poster"
 
 

@@ -75,6 +75,16 @@ def test_catalog_preview_keeps_poster_when_present(monkeypatch, tmp_path):
     assert catalog["metas"][0]["poster"] == "https://img/x.jpg"
 
 
+def test_fallback_ids_match_a_declared_prefix():
+    """Stremio silently drops catalog entries whose id matches no idPrefix,
+    which showed up as catalogues rendering 9 tiles instead of 10."""
+    from scraper.scraper import slug
+
+    prefixes = build_site.MANIFEST["idPrefixes"]
+    assert any(slug("Some Title").startswith(p) for p in prefixes)
+    assert any("tt1234567".startswith(p) for p in prefixes)
+
+
 def test_wrap_breaks_long_titles():
     assert build_site.wrap("The Thorn: One Sacred Light") == [
         "The Thorn: One", "Sacred Light"

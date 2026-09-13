@@ -92,7 +92,7 @@ def _query(sort: str, object_type: str, limit: int) -> list[dict]:
     return titles.get("edges") or []
 
 
-def fetch_horror(sort: str, media_type: str, limit: int = 10) -> list[ScrapedItem]:
+def fetch_horror(sort: str, media_type: str, limit: int = 20) -> list[ScrapedItem]:
     edges = _query(sort, media_type, limit)
     items = []
 
@@ -109,7 +109,7 @@ def fetch_horror(sort: str, media_type: str, limit: int = 10) -> list[ScrapedIte
 
         items.append(
             ScrapedItem(
-                id=imdb_id or node.get("id") or f"shudder-{sort}-{media_type}-{position}",
+                id=imdb_id or node.get("id") or f"tl-shudder-{sort}-{media_type}-{position}",
                 title=title,
                 poster=poster_url(content.get("posterUrl")),
                 rank=position,

@@ -29,7 +29,9 @@ SHUDDER_CATALOGS = {
 
 
 def slug(title: str) -> str:
-    return re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
+    """Ids for unresolved titles. The prefix is declared in the manifest's
+    idPrefixes - Stremio drops catalog entries whose id matches none of them."""
+    return "tl-" + re.sub(r"[^a-z0-9]+", "-", title.lower()).strip("-")
 
 
 def build_items(media_type: str, rows: list[dict]) -> list[ScrapedItem]:

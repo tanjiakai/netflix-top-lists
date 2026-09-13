@@ -17,7 +17,7 @@ MANIFEST = {
     # Stremio keys installs off this id, so it stays put through renames -
     # changing it would read as a different add-on and force a reinstall.
     "id": "org.stremio.netflix_top_lists",
-    "version": "2.2.0",
+    "version": "2.3.0",
     "name": "Top Lists",
     "description": (
         "Netflix's official Top 10 in Malaysia, plus horror picks from Shudder."
@@ -58,9 +58,10 @@ MANIFEST = {
         },
     ],
     "resources": ["catalog", "meta"],
-    # JustWatch supplies an IMDb ID for most but not every title; the tm/ts prefixes
-    # are JustWatch's own ids, used as a fallback so those entries still resolve.
-    "idPrefixes": ["tt", "tm", "ts"],
+    # Stremio drops any catalog entry whose id matches none of these, so every id
+    # this add-on can emit must be covered: tt from IMDb, tm/ts from JustWatch,
+    # and tl- for titles no source could identify.
+    "idPrefixes": ["tt", "tm", "ts", "tl-"],
 }
 
 CATALOG_TYPES = {catalog["id"]: catalog["type"] for catalog in MANIFEST["catalogs"]}
