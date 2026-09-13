@@ -17,42 +17,44 @@ MANIFEST = {
     # Stremio keys installs off this id, so it stays put through renames -
     # changing it would read as a different add-on and force a reinstall.
     "id": "org.stremio.netflix_top_lists",
-    "version": "2.1.0",
+    "version": "2.2.0",
     "name": "Top Lists",
     "description": (
         "Netflix's official Top 10 in Malaysia, plus horror picks from Shudder."
     ),
     "types": ["movie", "series"],
+    # Stremio appends the type to every catalog name ("... - Movie"), so the
+    # names here omit it rather than reading "Top 10 Movies ... - Movie".
     "catalogs": [
         {
             "type": "movie",
             "id": "malaysia_movies",
-            "name": "Netflix: Top 10 Movies in Malaysia",
+            "name": "Netflix: Top 10 in Malaysia",
         },
         {
             "type": "series",
             "id": "malaysia_tv",
-            "name": "Netflix: Top 10 TV in Malaysia",
+            "name": "Netflix: Top 10 in Malaysia",
         },
         {
             "type": "movie",
             "id": "shudder_horror_popular_movies",
-            "name": "Shudder: Popular Horror Movies",
+            "name": "Shudder: Popular Horror",
         },
         {
             "type": "series",
             "id": "shudder_horror_popular_series",
-            "name": "Shudder: Popular Horror Series",
+            "name": "Shudder: Popular Horror",
         },
         {
             "type": "movie",
             "id": "shudder_horror_new_movies",
-            "name": "Shudder: New Horror Movies",
+            "name": "Shudder: New Horror",
         },
         {
             "type": "series",
             "id": "shudder_horror_new_series",
-            "name": "Shudder: New Horror Series",
+            "name": "Shudder: New Horror",
         },
     ],
     "resources": ["catalog", "meta"],
@@ -139,8 +141,11 @@ def render_index(updated_at: str, week: str, catalogs: dict) -> str:
         rows = "\n".join(
             f"<li><span>{item['rank']}</span>{item['title']}</li>" for item in items
         )
+        # Mirrors how Stremio labels a row, so the page matches what you see there.
+        label = CATALOG_NAMES.get(catalog_id, catalog_id)
+        kind = CATALOG_TYPES.get(catalog_id, "").title()
         sections.append(
-            f"<section><h2>{CATALOG_NAMES.get(catalog_id, catalog_id)}</h2><ol>{rows}</ol></section>"
+            f"<section><h2>{label} &ndash; {kind}</h2><ol>{rows}</ol></section>"
         )
 
     return f"""<!doctype html>
