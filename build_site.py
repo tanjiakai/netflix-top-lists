@@ -16,7 +16,7 @@ MANIFEST = {
     "id": "org.stremio.netflix_top_lists",
     "version": "2.0.0",
     "name": "Netflix Top Lists",
-    "description": "Daily Top 10 movies and TV shows on Netflix Malaysia.",
+    "description": "Netflix's official Top 10 movies and TV shows in Malaysia.",
     "types": ["movie", "series"],
     "catalogs": [
         {
@@ -62,14 +62,12 @@ def to_meta(item: dict) -> dict:
     meta = to_preview(item)
     if item.get("description"):
         meta["description"] = item["description"]
-    if item.get("year"):
-        meta["releaseInfo"] = str(item["year"])
     if item.get("poster"):
         meta["background"] = item["poster"]
     return meta
 
 
-def render_index(updated_at: str, catalogs: dict) -> str:
+def render_index(updated_at: str, week: str, catalogs: dict) -> str:
     manifest_url = f"{BASE_URL}/manifest.json"
     install_url = manifest_url.replace("https://", "stremio://")
     sections = []
@@ -101,10 +99,12 @@ def render_index(updated_at: str, catalogs: dict) -> str:
 </head>
 <body>
 <h1>Netflix Top Lists</h1>
-<p>A Stremio add-on serving the daily Netflix Top 10 for Malaysia.</p>
+<p>A Stremio add-on serving Netflix's official Top 10 for Malaysia.</p>
 <p><a class="install" href="{install_url}">Install in Stremio</a></p>
 <p class="meta">Or paste this into Stremio's add-on search: <code>{manifest_url}</code></p>
-<p class="meta">Last updated: {updated_at}</p>
+<p class="meta">Netflix chart for the week ending <strong>{week}</strong>. Netflix publishes
+this weekly, on Tuesdays, for the week ending the previous Sunday.</p>
+<p class="meta">Last checked: {updated_at}</p>
 {"".join(sections)}
 </body>
 </html>
@@ -119,11 +119,16 @@ def main() -> int:
     data = json.loads(CATALOG_FILE.read_text(encoding="utf-8"))
     catalogs = data["catalogs"]
     updated_at = data["updated_at"]
+    week = data["week"]
 
     if OUTPUT_DIR.exists():
         shutil.rmtree(OUTPUT_DIR)
 
-    write_json(OUTPUT_DIR / "manifest.json", MANIFEST)
+    manifest = dict(MANIFEST)
+    manifest["description"] = (
+        f"{MANIFEST['description']} Chart for the week ending {week}."
+    )
+    write_json(OUTPUT_DIR / "manifest.json", manifest)
 
     meta_count = 0
     for catalog_id, items in catalogs.items():
@@ -141,7 +146,7 @@ def main() -> int:
             meta_count += 1
 
     (OUTPUT_DIR / "index.html").write_text(
-        render_index(updated_at, catalogs), encoding="utf-8"
+        render_index(updated_at, week, catalogs), encoding="utf-8"
     )
 
     print(

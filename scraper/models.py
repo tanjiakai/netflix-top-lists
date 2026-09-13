@@ -12,4 +12,4 @@ class ScrapedItem(BaseModel):
     url: str
     description: Optional[str] = None
     imdb_id: Optional[str] = None
-    year: Optional[int] = None
+    weeks_in_top10: Optional[int] = None
