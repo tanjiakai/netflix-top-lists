@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-13T09:50:13+00:00",
+  "updated_at": "2026-09-13T10:31:01+00:00",
   "week": "2026-09-06",
   "catalogs": {
     "malaysia_movies": [
@@ -64,15 +64,15 @@
         "weeks_in_top10": 4
       },
       {
-        "id": "the-thorn-one-sacred-light",
+        "id": "tt29795485",
         "title": "The Thorn: One Sacred Light",
-        "poster": "",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNWRkNTdlNGItODNhYi00Y2I2LTk2M2YtMzdhY2Q4ZmU4NjIxXkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 6,
         "type": "movie",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia",
         "description": "#6 on Netflix Malaysia - 2 week(s) in the Top 10",
-        "imdb_id": null,
+        "imdb_id": "tt29795485",
         "weeks_in_top10": 2
       },
       {
@@ -222,15 +222,15 @@
         "weeks_in_top10": 8
       },
       {
-        "id": "gate24-the-border",
+        "id": "tt43699178",
         "title": "GATE24:The Border",
-        "poster": "https://images.justwatch.com/poster/347599719/s718/da-kong-gang-gate24.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BZWY1OTFjZjUtZTQ1My00YzI3LTgwZjMtY2Y5OTlmY2VhODg1XkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 9,
         "type": "series",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia/tv",
         "description": "#9 on Netflix Malaysia - 5 week(s) in the Top 10",
-        "imdb_id": null,
+        "imdb_id": "tt43699178",
         "weeks_in_top10": 5
       },
       {
@@ -504,34 +504,22 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35670732",
-        "title": "Penny Lane Is Dead",
-        "poster": "https://images.justwatch.com/poster/346162622/s718/penny-lane-is-dead.jpg",
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
         "rank": 2,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
-        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
-        "imdb_id": "tt35670732",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt36647890",
-        "title": "The Mortuary Assistant",
-        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 3,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
-        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
-        "imdb_id": "tt36647890",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
         "weeks_in_top10": null
       },
       {
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 4,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
@@ -540,15 +528,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "id": "tt36647890",
+        "title": "The Mortuary Assistant",
+        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
+        "rank": 4,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
+        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
+        "imdb_id": "tt36647890",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35670732",
+        "title": "Penny Lane Is Dead",
+        "poster": "https://images.justwatch.com/poster/346162622/s718/penny-lane-is-dead.jpg",
         "rank": 5,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
+        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
+        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
+        "imdb_id": "tt35670732",
         "weeks_in_top10": null
       },
       {
@@ -588,15 +588,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
+        "id": "tt31474395",
+        "title": "The Voices of Our Mother",
+        "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
         "rank": 9,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
+        "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
+        "description": "When a family matriarch falls seriously ill, relatives gather and discover their shared ancestral ties bind them in unexpected ways.",
+        "imdb_id": "tt31474395",
         "weeks_in_top10": null
       },
       {

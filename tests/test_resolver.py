@@ -3,7 +3,7 @@ from scraper import resolver
 
 def stub_lookups(monkeypatch, justwatch=(None, None, None), cinemeta=None):
     monkeypatch.setattr(resolver, "_justwatch", lambda *a, **k: justwatch)
-    monkeypatch.setattr(resolver, "_cinemeta_exact", lambda *a, **k: cinemeta or [])
+    monkeypatch.setattr(resolver, "_cinemeta_search", lambda *a, **k: cinemeta or [])
 
 
 def test_normalize_ignores_punctuation_and_case():
@@ -88,3 +88,55 @@ def test_every_resolved_item_gets_a_poster(monkeypatch):
         stub_lookups(monkeypatch, justwatch=justwatch, cinemeta=cinemeta)
         imdb_id, poster = resolver.resolve("X", "movie")
         assert imdb_id and poster, f"{justwatch} / {cinemeta} produced {imdb_id!r}, {poster!r}"
+
+
+def test_unrelated_results_are_ignored(monkeypatch):
+    stub_lookups(
+        monkeypatch,
+        cinemeta=[{"name": "Something Else Entirely", "releaseInfo": "2020",
+                   "id": "tt999", "poster": "https://x.jpg"}],
+    )
+    assert resolver.resolve("Something", "movie") == (None, "")
+
+
+def test_accepts_near_identical_title(monkeypatch):
+    """Netflix lists this film with 'Light' where the real title says 'Night'."""
+    stub_lookups(
+        monkeypatch,
+        cinemeta=[
+            {"name": "The Thorn: One Sacred Night", "releaseInfo": "2024",
+             "id": "tt29795485", "poster": "https://real.jpg"},
+            {"name": "One Night with the King", "releaseInfo": "2006", "id": "tt0430431"},
+        ],
+    )
+    assert resolver.resolve("The Thorn: One Sacred Light", "movie") == (
+        "tt29795485", "https://real.jpg"
+    )
+
+
+def test_rejects_fuzzy_match_when_several_are_close(monkeypatch):
+    stub_lookups(
+        monkeypatch,
+        cinemeta=[
+            {"name": "The Thorn: One Sacred Night", "id": "tt1"},
+            {"name": "The Thorn: One Sacred Fight", "id": "tt2"},
+        ],
+    )
+    assert resolver.resolve("The Thorn: One Sacred Light", "movie") == (None, "")
+
+
+def test_rejects_fuzzy_match_below_threshold(monkeypatch):
+    stub_lookups(
+        monkeypatch,
+        cinemeta=[{"name": "Safe House", "releaseInfo": "2012", "id": "tt1599348"}],
+    )
+    assert resolver.resolve("Safe", "movie") == (None, "")
+
+
+def test_similarity_scores_one_word_difference_highly():
+    a = resolver.normalize("The Thorn: One Sacred Light")
+    b = resolver.normalize("The Thorn: One Sacred Night")
+    assert resolver.similarity(a, b) >= resolver.FUZZY_THRESHOLD
+    assert resolver.similarity(
+        resolver.normalize("Safe"), resolver.normalize("Safe House")
+    ) < resolver.FUZZY_THRESHOLD

@@ -9,6 +9,7 @@ wrong streams, which is worse than no ID at all.
 import logging
 import re
 import urllib.parse
+from difflib import SequenceMatcher
 
 import requests
 
@@ -29,6 +30,12 @@ HEADERS = {
 }
 
 OBJECT_TYPES = {"movie": "MOVIE", "series": "SHOW"}
+
+# Netflix's feed carries the occasional wrong word - it lists the Indonesian film
+# "The Thorn: One Sacred Night" as "...One Sacred Light" - so a near-identical
+# title is accepted when it is the only close one. Kept high deliberately: this
+# is the step most likely to attach a wrong ID.
+FUZZY_THRESHOLD = 0.90
 
 # packages: ["nfx"] restricts the search to titles actually on Netflix in this
 # country, which is what disambiguates common titles - without it "The
@@ -101,16 +108,19 @@ def _justwatch(title: str, media_type: str, country: str):
     return None, None, None
 
 
-def _cinemeta_exact(title: str, media_type: str) -> list[dict]:
+def similarity(a: str, b: str) -> float:
+    return SequenceMatcher(None, a, b).ratio()
+
+
+def _cinemeta_search(title: str, media_type: str) -> list[dict]:
     url = f"{CINEMETA_URL}/catalog/{media_type}/top/search={urllib.parse.quote(title)}.json"
     try:
         response = requests.get(url, timeout=TIMEOUT, headers=HEADERS)
         response.raise_for_status()
-        metas = response.json().get("metas") or []
+        return response.json().get("metas") or []
     except (requests.RequestException, ValueError) as exc:
         logger.warning("Cinemeta lookup failed for %r: %s", title, exc)
         return []
-    return [m for m in metas if normalize(m.get("name")) == normalize(title)]
 
 
 def metahub_poster(imdb_id: str) -> str:
@@ -128,19 +138,28 @@ def resolve(title: str, media_type: str, country: str = "MY") -> tuple[str | Non
     if imdb_id:
         return imdb_id, poster or metahub_poster(imdb_id)
 
-    candidates = _cinemeta_exact(title, media_type)
-    matches = [
-        m for m in candidates if year and str(year) in (m.get("releaseInfo") or "")
-    ]
-    if not matches and len(candidates) == 1:
-        matches = candidates
+    metas = _cinemeta_search(title, media_type)
+    exact = [m for m in metas if normalize(m.get("name")) == normalize(title)]
+
+    matches = [m for m in exact if year and str(year) in (m.get("releaseInfo") or "")]
+    if not matches and len(exact) == 1:
+        matches = exact
+
+    if not matches and not exact:
+        close = [
+            m for m in metas
+            if similarity(normalize(m.get("name")), normalize(title)) >= FUZZY_THRESHOLD
+        ]
+        if len(close) == 1:
+            logger.info("Fuzzy match: %r -> %r", title, close[0].get("name"))
+            matches = close
 
     if matches:
         meta = matches[0]
         return meta["id"], meta.get("poster") or poster or metahub_poster(meta["id"])
 
-    if len(candidates) > 1:
+    if len(exact) > 1:
         logger.info("Ambiguous match for %r (%d candidates), leaving unresolved",
-                    title, len(candidates))
+                    title, len(exact))
 
     return None, poster or ""

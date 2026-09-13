@@ -55,11 +55,16 @@ streams. Two keyless sources are tried, in [scraper/resolver.py](scraper/resolve
    charting.
 2. **Cinemeta** (Stremio's own catalog), matched on exact title, preferring the year
    JustWatch reported.
+3. If nothing matches exactly, a **near-identical title** is accepted, but only when
+   exactly one candidate clears a 0.90 similarity score. Netflix's feed carries the odd
+   wrong word or spacing: it lists the Indonesian film *The Thorn: One Sacred **Night***
+   as *"...One Sacred **Light**"*, and *Gate 24: The Border* as *"GATE24:The Border"*.
+   Both were unresolvable on exact match alone.
 
 A title with several equally plausible matches is left **unresolved rather than
 guessed** — a wrong ID displays the wrong film and pulls the wrong streams, which is
-worse than no ID. Currently 16 of 20 resolve; the rest are new local releases not yet
-in either index. They still appear in the catalog, just without streams.
+worse than no ID. Currently 18 of 20 resolve. The rest still appear in the catalog,
+just without streams.
 
 ### Shudder horror
 
@@ -92,9 +97,12 @@ artwork, falling back to `images.metahub.space` for any IMDb ID that arrives wit
 one.
 
 Titles that resolve to no ID *and* that JustWatch has never heard of have no artwork
-anywhere, so `build_site.py` generates a 2:3 SVG tile carrying the title. Netflix's own
-chart art cannot fill the gap: Tudum only publishes `STORY_ART`, which is landscape
-(1200x675) and square (750x750), never portrait.
+anywhere, so `build_site.py` generates a 2:3 SVG tile carrying the title — currently
+1 of 20.
+
+Netflix cannot fill that gap despite these being Netflix titles: neither the Tudum
+chart nor its public title pages expose portrait art. Every artwork type they publish
+is landscape (1200x675, 1280x720) or square (750x750).
 
 ### Freshness guard
 
