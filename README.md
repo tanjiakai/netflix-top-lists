@@ -1,50 +1,61 @@
-# Netflix Top Lists Stremio Add-on
+# Netflix Top Lists — Stremio Add-on
 
-A Stremio add-on that scrapes Netflix Tudum Top 10 lists (Malaysia TV & Movies) daily and serves them via the Stremio Add-on Protocol. **Features TMDB integration** to provide IMDb IDs, enabling other Stremio add-ons to provide streams.
+A Stremio add-on serving the daily Netflix Top 10 (movies and TV) for Malaysia.
 
-## Features
+It is a **static add-on**: a GitHub Action fetches the charts once a day, renders the
+Stremio Add-on Protocol responses as plain JSON files, and publishes them to GitHub
+Pages. There is no server to run, keep warm, or pay for.
 
-- **Daily Scraping**: Automatically fetches the latest Top 10 lists from Netflix Tudum.
-- **TMDB Integration**: Fetches IMDb IDs for all titles, enabling stream discovery from other add-ons.
-- **Stremio Protocol**: Fully compliant with the Stremio Add-on Protocol.
-- **Extensible**: Designed to easily add more regions and categories.
-- **JSON Storage**: Simple, file-based storage for easy deployment and maintenance.
+## Install
 
-## Setup
+Open <https://tanjiakai.github.io/netflix-top-lists/> and click **Install in Stremio**,
+or paste this into Stremio's add-on search:
 
-### 1. Get TMDB API Key (Required)
+```
+https://tanjiakai.github.io/netflix-top-lists/manifest.json
+```
 
-To enable IMDb ID lookup and stream integration:
+## How it works
 
-1. Create a free account at [TMDB](https://www.themoviedb.org/)
-2. Get your API key from [Settings > API](https://www.themoviedb.org/settings/api)
-3. Copy `.env.example` to `.env` and add your key:
-   ```bash
-   cp .env.example .env
-   # Edit .env and add: TMDB_API_KEY=your_api_key_here
-   ```
+```
+JustWatch GraphQL  ->  scraper/  ->  catalog.json  ->  build_site.py  ->  dist/  ->  GitHub Pages
+```
 
-### 2. Run Locally
+- **Data source**: JustWatch's `streamingCharts` GraphQL field, using the
+  `DAILY_POPULARITY_SAME_CONTENT_TYPE` chart filtered to Netflix (`nfx`) in Malaysia.
+  It returns IMDb IDs directly, so no TMDB lookup is needed and no API key is required.
+- **Ranking**: the API reports each title's position in the country-wide chart across
+  *all* providers, so Netflix-only results come back non-contiguous (1, 5, 6, …). Rank
+  is assigned from list position instead.
+- **Freshness guard**: if either chart comes back empty or the fetch fails, the scraper
+  exits non-zero and leaves `catalog.json` untouched, so a bad upstream day fails the
+  workflow loudly instead of silently blanking the add-on.
 
-1. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
+## Local development
 
-2. Run the scraper (to populate catalog):
-   ```bash
-   python -m scraper.scraper
-   ```
+```bash
+pip install -r requirements.txt
+python -m scraper.scraper   # refresh catalog.json
+python build_site.py        # render dist/
+python -m pytest            # run tests
+```
 
-3. Run the server:
-   ```bash
-   uvicorn server.app:app --reload
-   ```
+To preview the built add-on:
+
+```bash
+python -m http.server 8765 --directory dist
+```
+
+Then point Stremio at `http://127.0.0.1:8765/manifest.json`.
+
+`build_site.py` reads `ADDON_BASE_URL` to build the install link; it defaults to the
+GitHub Pages URL and the workflow sets it from the repository name.
 
 ## Deployment
 
-### Render.com
+The `Update catalog and deploy` workflow runs daily at 02:00 UTC, on every push to
+`master`, and on manual dispatch. It runs the tests, scrapes, builds, commits the
+refreshed `catalog.json`, and deploys `dist/` to GitHub Pages.
 
-1. Set environment variable `TMDB_API_KEY` in Render dashboard
-2. The app will automatically deploy from GitHub
-
+**One-time setup:** in the repository settings, under *Pages*, set the source to
+**GitHub Actions**.

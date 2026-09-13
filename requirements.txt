@@ -1,9 +1,3 @@
-fastapi
-uvicorn
 requests
-beautifulsoup4
-lxml
 pydantic
 pytest
-httpx
-python-dotenv
