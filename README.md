@@ -64,10 +64,10 @@ one shows a blank placeholder. Whichever source resolved the title supplies the
 artwork, falling back to `images.metahub.space` for any IMDb ID that arrives without
 one.
 
-Titles that resolve to no ID *and* that JustWatch has never heard of end up with no
-poster — currently 2 of 20, both brand-new local releases. Netflix's own artwork would
-cover them, but it is only reachable by parsing the embedded JSON on the Tudum page,
-which is far more fragile than the TSV.
+Titles that resolve to no ID *and* that JustWatch has never heard of have no artwork
+anywhere, so `build_site.py` generates a 2:3 SVG tile carrying the title. Netflix's own
+chart art cannot fill the gap: Tudum only publishes `STORY_ART`, which is landscape
+(1200x675) and square (750x750), never portrait.
 
 ### Freshness guard
 

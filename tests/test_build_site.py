@@ -66,15 +66,6 @@ def test_meta_uses_fallback_id_when_imdb_missing(monkeypatch, tmp_path):
     assert (tmp_path / "dist" / "meta" / "movie" / "a-film.json").exists()
 
 
-def test_catalog_preview_omits_missing_poster(monkeypatch, tmp_path):
-    monkeypatch.chdir(tmp_path)
-    write_catalog(tmp_path, [sample_item(poster="")])
-
-    assert build_site.main() == 0
-    catalog = read(tmp_path, "catalog", "movie", "malaysia_movies.json")
-    assert "poster" not in catalog["metas"][0]
-
-
 def test_catalog_preview_keeps_poster_when_present(monkeypatch, tmp_path):
     monkeypatch.chdir(tmp_path)
     write_catalog(tmp_path, [sample_item(poster="https://img/x.jpg")])
@@ -82,6 +73,42 @@ def test_catalog_preview_keeps_poster_when_present(monkeypatch, tmp_path):
     assert build_site.main() == 0
     catalog = read(tmp_path, "catalog", "movie", "malaysia_movies.json")
     assert catalog["metas"][0]["poster"] == "https://img/x.jpg"
+
+
+def test_wrap_breaks_long_titles():
+    assert build_site.wrap("The Thorn: One Sacred Light") == [
+        "The Thorn: One", "Sacred Light"
+    ]
+    assert build_site.wrap("Mousetrap") == ["Mousetrap"]
+    assert build_site.wrap("") == []
+
+
+def test_placeholder_escapes_xml():
+    svg = build_site.placeholder_svg("Upin&Ipin")
+    assert "Upin&amp;Ipin" in svg
+    assert "Upin&Ipin" not in svg
+
+
+def test_item_without_poster_gets_a_generated_one(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
+    write_catalog(tmp_path, [sample_item(id="a-film", imdb_id=None, poster="")])
+
+    assert build_site.main() == 0
+
+    svg = tmp_path / "dist" / "poster" / "a-film.svg"
+    assert svg.exists()
+    assert svg.read_text(encoding="utf-8").startswith("<svg")
+
+    catalog = read(tmp_path, "catalog", "movie", "malaysia_movies.json")
+    assert catalog["metas"][0]["poster"].endswith("/poster/a-film.svg")
+
+
+def test_real_poster_is_not_replaced(monkeypatch, tmp_path):
+    monkeypatch.chdir(tmp_path)
+    write_catalog(tmp_path, [sample_item(poster="https://real/poster.jpg")])
+
+    assert build_site.main() == 0
+    assert not (tmp_path / "dist" / "poster").exists()
 
 
 def test_missing_catalog_file_fails(monkeypatch, tmp_path):

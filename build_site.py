@@ -1,5 +1,6 @@
 """Render catalog.json into the static file tree the Stremio protocol expects."""
 
+import html
 import json
 import os
 import shutil
@@ -44,6 +45,45 @@ def write_json(path: Path, payload: dict) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text(
         json.dumps(payload, indent=2, ensure_ascii=False), encoding="utf-8"
+    )
+
+
+def wrap(title: str, width: int = 14) -> list[str]:
+    lines, current = [], ""
+    for word in title.split():
+        candidate = f"{current} {word}".strip()
+        if len(candidate) > width and current:
+            lines.append(current)
+            current = word
+        else:
+            current = candidate
+    if current:
+        lines.append(current)
+    return lines[:5]
+
+
+def placeholder_svg(title: str) -> str:
+    """A 2:3 poster for titles no source has artwork for.
+
+    Netflix's own chart art is landscape only, so it cannot fill a poster slot;
+    a generated tile keeps the row visually consistent instead of leaving a gap.
+    """
+    lines = wrap(title)
+    start = 225 - (len(lines) - 1) * 16
+    spans = "".join(
+        f'<tspan x="150" y="{start + i * 32}">{html.escape(line)}</tspan>'
+        for i, line in enumerate(lines)
+    )
+    return (
+        '<svg xmlns="http://www.w3.org/2000/svg" width="300" height="450" '
+        'viewBox="0 0 300 450">'
+        '<rect width="300" height="450" fill="#1b1b24"/>'
+        '<rect x="0" y="0" width="300" height="6" fill="#e50914"/>'
+        '<text x="150" y="70" fill="#8a8a99" font-family="system-ui, sans-serif" '
+        'font-size="15" letter-spacing="2" text-anchor="middle">NETFLIX TOP 10</text>'
+        f'<text fill="#ececf1" font-family="system-ui, sans-serif" font-size="26" '
+        f'font-weight="600" text-anchor="middle">{spans}</text>'
+        "</svg>"
     )
 
 
@@ -130,6 +170,17 @@ def main() -> int:
     )
     write_json(OUTPUT_DIR / "manifest.json", manifest)
 
+    placeholders = 0
+    for items in catalogs.values():
+        for item in items:
+            if not item.get("poster"):
+                name = f"{item['id']}.svg"
+                path = OUTPUT_DIR / "poster" / name
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text(placeholder_svg(item["title"]), encoding="utf-8")
+                item["poster"] = f"{BASE_URL}/poster/{name}"
+                placeholders += 1
+
     meta_count = 0
     for catalog_id, items in catalogs.items():
         catalog_type = CATALOG_TYPES[catalog_id]
@@ -150,7 +201,8 @@ def main() -> int:
     )
 
     print(
-        f"built {OUTPUT_DIR}/: {len(catalogs)} catalogs, {meta_count} meta files"
+        f"built {OUTPUT_DIR}/: {len(catalogs)} catalogs, {meta_count} meta files, "
+        f"{placeholders} generated posters"
     )
     return 0
 
