@@ -6,6 +6,7 @@ from datetime import datetime, timezone
 
 from .models import ScrapedItem
 from .resolver import resolve
+from .shudder import fetch_horror
 from .tudum import fetch_top10
 
 logging.basicConfig(level=logging.INFO, format="%(levelname)s %(message)s")
@@ -17,6 +18,13 @@ REGION = "malaysia"
 TUDUM_URL = "https://www.netflix.com/tudum/top10/malaysia"
 
 CATALOG_IDS = {"movie": "malaysia_movies", "series": "malaysia_tv"}
+
+SHUDDER_CATALOGS = {
+    "shudder_horror_popular_movies": ("popular", "movie"),
+    "shudder_horror_popular_series": ("popular", "series"),
+    "shudder_horror_new_movies": ("new", "movie"),
+    "shudder_horror_new_series": ("new", "series"),
+}
 
 
 def slug(title: str) -> str:
@@ -60,6 +68,10 @@ def scrape_all() -> tuple[str, dict[str, list[dict]]]:
         rows = by_type.get(media_type) or []
         logger.info("Building %s from %d rows", catalog_id, len(rows))
         catalogs[catalog_id] = [item.model_dump() for item in build_items(media_type, rows)]
+
+    for catalog_id, (sort, media_type) in SHUDDER_CATALOGS.items():
+        items = fetch_horror(sort, media_type)
+        catalogs[catalog_id] = [item.model_dump() for item in items]
 
     return week, catalogs
 

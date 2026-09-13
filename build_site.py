@@ -14,10 +14,14 @@ BASE_URL = os.environ.get(
 )
 
 MANIFEST = {
+    # Stremio keys installs off this id, so it stays put through renames -
+    # changing it would read as a different add-on and force a reinstall.
     "id": "org.stremio.netflix_top_lists",
-    "version": "2.0.0",
-    "name": "Netflix Top Lists",
-    "description": "Netflix's official Top 10 movies and TV shows in Malaysia.",
+    "version": "2.1.0",
+    "name": "Top Lists",
+    "description": (
+        "Netflix's official Top 10 in Malaysia, plus horror picks from Shudder."
+    ),
     "types": ["movie", "series"],
     "catalogs": [
         {
@@ -29,6 +33,26 @@ MANIFEST = {
             "type": "series",
             "id": "malaysia_tv",
             "name": "Netflix: Top 10 TV in Malaysia",
+        },
+        {
+            "type": "movie",
+            "id": "shudder_horror_popular_movies",
+            "name": "Shudder: Popular Horror Movies",
+        },
+        {
+            "type": "series",
+            "id": "shudder_horror_popular_series",
+            "name": "Shudder: Popular Horror Series",
+        },
+        {
+            "type": "movie",
+            "id": "shudder_horror_new_movies",
+            "name": "Shudder: New Horror Movies",
+        },
+        {
+            "type": "series",
+            "id": "shudder_horror_new_series",
+            "name": "Shudder: New Horror Series",
         },
     ],
     "resources": ["catalog", "meta"],
@@ -124,7 +148,7 @@ def render_index(updated_at: str, week: str, catalogs: dict) -> str:
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Netflix Top Lists</title>
+<title>Top Lists</title>
 <style>
   body {{ font-family: system-ui, sans-serif; max-width: 46rem; margin: 3rem auto;
          padding: 0 1.25rem; line-height: 1.55; background: #14141a; color: #ececf1; }}
@@ -138,8 +162,8 @@ def render_index(updated_at: str, week: str, catalogs: dict) -> str:
 </style>
 </head>
 <body>
-<h1>Netflix Top Lists</h1>
-<p>A Stremio add-on serving Netflix's official Top 10 for Malaysia.</p>
+<h1>Top Lists</h1>
+<p>A Stremio add-on serving curated top lists from streaming services.</p>
 <p><a class="install" href="{install_url}">Install in Stremio</a></p>
 <p class="meta">Or paste this into Stremio's add-on search: <code>{manifest_url}</code></p>
 <p class="meta">Netflix chart for the week ending <strong>{week}</strong>. Netflix publishes
@@ -166,7 +190,7 @@ def main() -> int:
 
     manifest = dict(MANIFEST)
     manifest["description"] = (
-        f"{MANIFEST['description']} Chart for the week ending {week}."
+        f"{MANIFEST['description']} Netflix chart for the week ending {week}."
     )
     write_json(OUTPUT_DIR / "manifest.json", manifest)
 

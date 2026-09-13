@@ -1,6 +1,11 @@
-# Netflix Top Lists — Stremio Add-on
+# Top Lists — Stremio Add-on
 
-A Stremio add-on serving **Netflix's official Top 10** (movies and TV) for Malaysia.
+A Stremio add-on serving curated top lists from streaming services. Currently
+**Netflix's official Top 10** (movies and TV) for Malaysia.
+
+The manifest `id` stays `org.stremio.netflix_top_lists` and the repository keeps its
+name: Stremio keys installs off the id, and the repository name is part of the GitHub
+Pages URL, so changing either would break existing installs.
 
 It is a **static add-on**: a GitHub Action fetches the chart once a day, renders the
 Stremio Add-on Protocol responses as plain JSON files, and publishes them to GitHub
@@ -55,6 +60,28 @@ A title with several equally plausible matches is left **unresolved rather than
 guessed** — a wrong ID displays the wrong film and pulls the wrong streams, which is
 worse than no ID. Currently 16 of 20 resolve; the rest are new local releases not yet
 in either index. They still appear in the catalog, just without streams.
+
+### Shudder horror
+
+Four extra catalogues, 10 titles each: popular and new, for films and series.
+Source is JustWatch's `popularTitles`, filtered to the horror genre (`hrr`) on Shudder
+(`shd`), in [scraper/shudder.py](scraper/shudder.py).
+
+- **"New" means most recently released, not recently added.** JustWatch has no
+  added-date sort — `NEWEST`, `NEW` and `DATE_ADDED` are all rejected by the schema.
+- **The US catalogue is queried**, because Shudder is not sold in Malaysia. That only
+  decides which catalogue is read; it does not affect playback, since the add-on serves
+  IMDb IDs and other add-ons supply the streams.
+- **"Popular" is JustWatch's own popularity signal**, not a Shudder ranking — the same
+  class of number that matched Netflix on 1 title in 20. There is no official Shudder
+  chart to check it against, so it is labelled "Popular on Shudder" rather than implying
+  it is Shudder's own list.
+
+Why not another source: Shudder's own site returns `403 — not available in your
+country`, and TMDB licenses its availability data *from* JustWatch, delivered once per
+24 hours, so it is the same data a day later.
+
+These entries carry IMDb IDs and posters inline, so they skip the resolver entirely.
 
 ### Posters
 
