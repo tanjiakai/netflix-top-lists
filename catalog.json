@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-19T07:08:05+00:00",
+  "updated_at": "2026-09-20T07:33:04+00:00",
   "week": "2026-09-13",
   "catalogs": {
     "malaysia_movies": [
@@ -332,27 +332,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt15284556",
-        "title": "Marama",
-        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
-        "rank": 8,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/marama",
-        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
-        "imdb_id": "tt15284556",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt12749596",
         "title": "Host",
         "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
-        "rank": 9,
+        "rank": 8,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/host",
         "description": "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realise they might not survive the night.",
         "imdb_id": "tt12749596",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "rank": 9,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
         "weeks_in_top10": null
       },
       {
@@ -404,10 +404,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt26470109",
+        "title": "Oddity",
+        "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
+        "rank": 14,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/oddity",
+        "description": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime.",
+        "imdb_id": "tt26470109",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt2494362",
         "title": "Bone Tomahawk",
         "poster": "https://images.justwatch.com/poster/112653931/s718/bone-tomahawk.jpg",
-        "rank": 14,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/bone-tomahawk",
@@ -419,7 +431,7 @@
         "id": "tt16300962",
         "title": "When Evil Lurks",
         "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
-        "rank": 15,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
@@ -428,34 +440,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt26470109",
-        "title": "Oddity",
-        "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
-        "rank": 16,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/oddity",
-        "description": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime.",
-        "imdb_id": "tt26470109",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt29344903",
-        "title": "The Ugly Stepsister",
-        "poster": "https://images.justwatch.com/poster/330798000/s718/the-ugly-stepsister.jpg",
-        "rank": 17,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-ugly-stepsister",
-        "description": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, Agnes, and she will go to any length to catch the Prince’s eye.",
-        "imdb_id": "tt29344903",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt14966898",
         "title": "Late Night with the Devil",
         "poster": "https://images.justwatch.com/poster/312745008/s718/late-night-with-the-devil.jpg",
-        "rank": 18,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/late-night-with-the-devil",
@@ -467,7 +455,7 @@
         "id": "tt29550683",
         "title": "Whistle",
         "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 19,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/whistle-2026",
@@ -479,12 +467,24 @@
         "id": "tt3289956",
         "title": "The Autopsy of Jane Doe",
         "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
         "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
         "imdb_id": "tt3289956",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt29344903",
+        "title": "The Ugly Stepsister",
+        "poster": "https://images.justwatch.com/poster/330798000/s718/the-ugly-stepsister.jpg",
+        "rank": 20,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-ugly-stepsister",
+        "description": "In a fairy-tale kingdom where beauty is a brutal business, Elvira battles to compete with her incredibly beautiful stepsister, Agnes, and she will go to any length to catch the Prince’s eye.",
+        "imdb_id": "tt29344903",
         "weeks_in_top10": null
       }
     ],
@@ -732,22 +732,10 @@
     ],
     "shudder_horror_new_movies": [
       {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 1,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/346162622/s718/penny-lane-is-dead.jpg",
-        "rank": 2,
+        "rank": 1,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -759,7 +747,7 @@
         "id": "tt36647890",
         "title": "The Mortuary Assistant",
         "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 3,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
@@ -768,27 +756,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt32639175",
-        "title": "Dolly",
-        "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 4,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/dolly",
-        "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
-        "imdb_id": "tt32639175",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35050712",
         "title": "Saccharine",
         "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 5,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/saccharine",
         "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
         "imdb_id": "tt35050712",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "rank": 4,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt32639175",
+        "title": "Dolly",
+        "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/dolly",
+        "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
+        "imdb_id": "tt32639175",
         "weeks_in_top10": null
       },
       {
@@ -828,22 +828,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 9,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt31474395",
         "title": "The Voices of Our Mother",
         "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
-        "rank": 10,
+        "rank": 9,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
@@ -855,12 +843,24 @@
         "id": "tt37538172",
         "title": "Bodycam",
         "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 11,
+        "rank": 10,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/bodycam",
         "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
         "imdb_id": "tt37538172",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt34383465",
+        "title": "Nightborn",
+        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
+        "rank": 11,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/nightborn",
+        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
+        "imdb_id": "tt34383465",
         "weeks_in_top10": null
       },
       {
@@ -876,27 +876,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt15284556",
-        "title": "Marama",
-        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
-        "rank": 13,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/marama",
-        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
-        "imdb_id": "tt15284556",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt8637438",
         "title": "Night Patrol",
         "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
-        "rank": 14,
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
         "description": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
         "imdb_id": "tt8637438",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "rank": 14,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
         "weeks_in_top10": null
       },
       {
@@ -924,27 +924,27 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tm2865762",
+        "title": "Goody Goody",
+        "poster": "https://images.justwatch.com/poster/344264797/s718/goody-goody.jpg",
+        "rank": 17,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/goody-goody",
+        "description": "Lulled into a necessary sense of comfort during a long home birth process, expecting parents and their midwife begin to realize that something may be horribly wrong. As labor complications ensue, a blizzard rages outside trapping the family in their home – sitting ducks for whatever sinister presence might be in there with them.",
+        "imdb_id": null,
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt14500286",
         "title": "The Yeti",
         "poster": "https://images.justwatch.com/poster/344271666/s718/the-yeti.jpg",
-        "rank": 17,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-yeti",
         "description": "When an oil tycoon and a famous adventurer vanish into the harsh winter of remote northern Alaska, a hand-picked rescue team endeavors to bring them home. What they don’t know is that they are trespassing on The Yeti’s territory, and the elements are the least of their worries.",
         "imdb_id": "tt14500286",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt26932649",
-        "title": "She Loved Blossoms More",
-        "poster": "https://images.justwatch.com/poster/318523584/s718/she-loved-blossoms-more.jpg",
-        "rank": 18,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/she-loved-blossoms-more",
-        "description": "Hoping to bring their dead mother back to life, three brothers build a time machine in this visually decadent, bizarre and altogether mesmerizing head-trip.",
-        "imdb_id": "tt26932649",
         "weeks_in_top10": null
       },
       {
@@ -960,15 +960,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt21955520",
-        "title": "Peter Pan's Neverland Nightmare",
-        "poster": "https://images.justwatch.com/poster/327849091/s718/peter-pans-neverland-nightmare-2025.jpg",
+        "id": "tt26932649",
+        "title": "She Loved Blossoms More",
+        "poster": "https://images.justwatch.com/poster/318523584/s718/she-loved-blossoms-more.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/peter-pans-neverland-nightmare-2025",
-        "description": "Wendy Darling strikes out in an attempt to rescue her brother Michael from the clutches of the evil Peter Pan who intends to send him to Neverland. Along the way she meets a twisted Tinkerbell, who is hooked on what she thinks is fairy dust.",
-        "imdb_id": "tt21955520",
+        "url": "https://www.justwatch.com/us/movie/she-loved-blossoms-more",
+        "description": "Hoping to bring their dead mother back to life, three brothers build a time machine in this visually decadent, bizarre and altogether mesmerizing head-trip.",
+        "imdb_id": "tt26932649",
         "weeks_in_top10": null
       }
     ],
@@ -1046,27 +1046,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt13639222",
-        "title": "Queer for Fear: The History of Queer Horror",
-        "poster": "https://images.justwatch.com/poster/300492232/s718/queer-for-fear-the-history-of-queer-horror.jpg",
-        "rank": 7,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/queer-for-fear-the-history-of-queer-horror",
-        "description": "A documentary telling the story of LGBTQIA+ horror and the relationship between queer audiences and horror, and the queer horror community as a whole.",
-        "imdb_id": "tt13639222",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt21923908",
         "title": "The 101 Scariest Horror Movie Moments of All Time",
         "poster": "https://images.justwatch.com/poster/310232285/s718/the-101-scariest-horror-movie-moments-of-all-time.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-101-scariest-horror-movie-moments-of-all-time",
         "description": "In this Shudder Original series, master filmmakers and genre experts celebrate and dissect the most terrifying moments of the greatest horror films ever made, exploring how these scenes were created and why they burned themselves into the brains of audiences around the world.",
         "imdb_id": "tt21923908",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt13639222",
+        "title": "Queer for Fear: The History of Queer Horror",
+        "poster": "https://images.justwatch.com/poster/300492232/s718/queer-for-fear-the-history-of-queer-horror.jpg",
+        "rank": 8,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/queer-for-fear-the-history-of-queer-horror",
+        "description": "A documentary telling the story of LGBTQIA+ horror and the relationship between queer audiences and horror, and the queer horror community as a whole.",
+        "imdb_id": "tt13639222",
         "weeks_in_top10": null
       },
       {
