@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-25T07:16:51+00:00",
+  "updated_at": "2026-09-26T07:12:14+00:00",
   "week": "2026-09-20",
   "catalogs": {
     "malaysia_movies": [
@@ -380,22 +380,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35521922",
-        "title": "Good Boy",
-        "poster": "https://images.justwatch.com/poster/334206902/s718/good-boy-2025.jpg",
-        "rank": 12,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/good-boy-2025",
-        "description": "A loyal dog moves to a rural family home with his owner Todd, only to discover supernatural forces lurking in the shadows. As dark entities threaten his human companion, the brave pup must fight to protect the one he loves most.",
-        "imdb_id": "tt35521922",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt26470109",
         "title": "Oddity",
         "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
-        "rank": 13,
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/oddity",
@@ -404,15 +392,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt0095271",
-        "title": "Halloween 4: The Return of Michael Myers",
-        "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
+        "id": "tt35521922",
+        "title": "Good Boy",
+        "poster": "https://images.justwatch.com/poster/334206902/s718/good-boy-2025.jpg",
+        "rank": 13,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/good-boy-2025",
+        "description": "A loyal dog moves to a rural family home with his owner Todd, only to discover supernatural forces lurking in the shadows. As dark entities threaten his human companion, the brave pup must fight to protect the one he loves most.",
+        "imdb_id": "tt35521922",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt16300962",
+        "title": "When Evil Lurks",
+        "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
         "rank": 14,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
-        "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece.",
-        "imdb_id": "tt0095271",
+        "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
+        "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
+        "imdb_id": "tt16300962",
         "weeks_in_top10": null
       },
       {
@@ -428,15 +428,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt3289956",
-        "title": "The Autopsy of Jane Doe",
-        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
+        "id": "tt0095271",
+        "title": "Halloween 4: The Return of Michael Myers",
+        "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
         "rank": 16,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
-        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
-        "imdb_id": "tt3289956",
+        "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
+        "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece.",
+        "imdb_id": "tt0095271",
         "weeks_in_top10": null
       },
       {
@@ -452,27 +452,27 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt3289956",
+        "title": "The Autopsy of Jane Doe",
+        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
+        "rank": 18,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
+        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
+        "imdb_id": "tt3289956",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt2494362",
         "title": "Bone Tomahawk",
         "poster": "https://images.justwatch.com/poster/112653931/s718/bone-tomahawk.jpg",
-        "rank": 18,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/bone-tomahawk",
         "description": "During a shootout in a saloon, Sheriff Hunt injures a suspicious stranger. The doctor's assistant, wife of the local foreman, tends to him in prison. That night, the town is attacked and they both disappear—only the arrow of a cannibal tribe is found. Hunt and a few of his men go in search of the prisoner and the foreman's wife.",
         "imdb_id": "tt2494362",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt16300962",
-        "title": "When Evil Lurks",
-        "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
-        "rank": 19,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
-        "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
-        "imdb_id": "tt16300962",
         "weeks_in_top10": null
       },
       {
@@ -646,7 +646,7 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt8284230",
+        "id": "tt8865058",
         "title": "The Last Drive-In with Joe Bob Briggs",
         "poster": "https://images.justwatch.com/poster/321648932/s718/the-last-drive-in-with-joe-bob-briggs.jpg",
         "rank": 14,
@@ -654,7 +654,7 @@
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-last-drive-in-with-joe-bob-briggs",
         "description": "Joe Bob Briggs watches and provides behind-the-scenes information on an eclectic pairing of films, running the gamut from horror classics to obscurities and international cult favorites.",
-        "imdb_id": "tt8284230",
+        "imdb_id": "tt8865058",
         "weeks_in_top10": null
       },
       {
@@ -732,34 +732,10 @@
     ],
     "shudder_horror_new_movies": [
       {
-        "id": "tt32639175",
-        "title": "Dolly",
-        "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 1,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/dolly",
-        "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
-        "imdb_id": "tt32639175",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/346162622/s718/penny-lane-is-dead.jpg",
-        "rank": 3,
+        "rank": 1,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -768,22 +744,22 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 4,
+        "id": "tt32639175",
+        "title": "Dolly",
+        "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
+        "url": "https://www.justwatch.com/us/movie/dolly",
+        "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
+        "imdb_id": "tt32639175",
         "weeks_in_top10": null
       },
       {
         "id": "tt36647890",
         "title": "The Mortuary Assistant",
         "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 5,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
@@ -792,15 +768,39 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "rank": 4,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt35050712",
         "title": "Saccharine",
         "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 6,
+        "rank": 5,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/saccharine",
         "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
         "imdb_id": "tt35050712",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 6,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
         "weeks_in_top10": null
       },
       {
@@ -840,22 +840,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 10,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt37538172",
         "title": "Bodycam",
         "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 11,
+        "rank": 10,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/bodycam",
@@ -864,10 +852,34 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt34735922",
+        "title": "Bloody Tennis",
+        "poster": "https://images.justwatch.com/poster/350111801/s718/bloody-tennis.jpg",
+        "rank": 11,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
+        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
+        "imdb_id": "tt34735922",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt34383465",
+        "title": "Nightborn",
+        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
+        "rank": 12,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/nightborn",
+        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
+        "imdb_id": "tt34383465",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt15284556",
         "title": "Marama",
         "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
-        "rank": 12,
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/marama",
@@ -879,7 +891,7 @@
         "id": "tt8637438",
         "title": "Night Patrol",
         "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
-        "rank": 13,
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
@@ -891,7 +903,7 @@
         "id": "tt30691214",
         "title": "Forbidden Fruits",
         "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
-        "rank": 14,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
@@ -903,7 +915,7 @@
         "id": "tt37671737",
         "title": "Buffet Infinity",
         "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
-        "rank": 15,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/buffet-infinity",
@@ -915,7 +927,7 @@
         "id": "tt35669125",
         "title": "This Is Not a Test",
         "poster": "https://images.justwatch.com/poster/342003088/s718/this-is-not-a-test-2025.jpg",
-        "rank": 16,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/this-is-not-a-test-2025",
@@ -927,7 +939,7 @@
         "id": "tm2865762",
         "title": "Goody Goody",
         "poster": "https://images.justwatch.com/poster/344264797/s718/goody-goody.jpg",
-        "rank": 17,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/goody-goody",
@@ -939,7 +951,7 @@
         "id": "tt14500286",
         "title": "The Yeti",
         "poster": "https://images.justwatch.com/poster/344271666/s718/the-yeti.jpg",
-        "rank": 18,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-yeti",
@@ -948,27 +960,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt38897418",
-        "title": "The Boulet Brothers' Holiday of Horrors",
-        "poster": "https://images.justwatch.com/poster/340623317/s718/the-boulet-brothers-holiday-of-horrors.jpg",
-        "rank": 19,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-boulet-brothers-holiday-of-horrors",
-        "description": "A chilling holiday anthology from The Boulet Brothers featuring four original horror shorts from top genre creators.",
-        "imdb_id": "tt38897418",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt26932649",
-        "title": "She Loved Blossoms More",
-        "poster": "https://images.justwatch.com/poster/318523584/s718/she-loved-blossoms-more.jpg",
+        "id": "tt29468874",
+        "title": "Beast of War",
+        "poster": "https://images.justwatch.com/poster/336823798/s718/beast-of-war.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/she-loved-blossoms-more",
-        "description": "Hoping to bring their dead mother back to life, three brothers build a time machine in this visually decadent, bizarre and altogether mesmerizing head-trip.",
-        "imdb_id": "tt26932649",
+        "url": "https://www.justwatch.com/us/movie/beast-of-war",
+        "description": "When their boat sinks while crossing the Timor Sea during World War II, a troop of young Australian soldiers must find a way to survive the harsh seas on a quickly shrinking raft. Hundreds of miles from anywhere, they must confront interpersonal conflicts, enemy attacks, and the advances of one very large, very hungry great white shark.",
+        "imdb_id": "tt29468874",
         "weeks_in_top10": null
       }
     ],
@@ -1046,27 +1046,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt21923908",
-        "title": "The 101 Scariest Horror Movie Moments of All Time",
-        "poster": "https://images.justwatch.com/poster/310232285/s718/the-101-scariest-horror-movie-moments-of-all-time.jpg",
-        "rank": 7,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/the-101-scariest-horror-movie-moments-of-all-time",
-        "description": "In this Shudder Original series, master filmmakers and genre experts celebrate and dissect the most terrifying moments of the greatest horror films ever made, exploring how these scenes were created and why they burned themselves into the brains of audiences around the world.",
-        "imdb_id": "tt21923908",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt13639222",
         "title": "Queer for Fear: The History of Queer Horror",
         "poster": "https://images.justwatch.com/poster/300492232/s718/queer-for-fear-the-history-of-queer-horror.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/queer-for-fear-the-history-of-queer-horror",
         "description": "A documentary telling the story of LGBTQIA+ horror and the relationship between queer audiences and horror, and the queer horror community as a whole.",
         "imdb_id": "tt13639222",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt21923908",
+        "title": "The 101 Scariest Horror Movie Moments of All Time",
+        "poster": "https://images.justwatch.com/poster/310232285/s718/the-101-scariest-horror-movie-moments-of-all-time.jpg",
+        "rank": 8,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/the-101-scariest-horror-movie-moments-of-all-time",
+        "description": "In this Shudder Original series, master filmmakers and genre experts celebrate and dissect the most terrifying moments of the greatest horror films ever made, exploring how these scenes were created and why they burned themselves into the brains of audiences around the world.",
+        "imdb_id": "tt21923908",
         "weeks_in_top10": null
       },
       {
@@ -1178,7 +1178,7 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt8284230",
+        "id": "tt8865058",
         "title": "The Last Drive-In with Joe Bob Briggs",
         "poster": "https://images.justwatch.com/poster/321648932/s718/the-last-drive-in-with-joe-bob-briggs.jpg",
         "rank": 18,
@@ -1186,31 +1186,31 @@
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-last-drive-in-with-joe-bob-briggs",
         "description": "Joe Bob Briggs watches and provides behind-the-scenes information on an eclectic pairing of films, running the gamut from horror classics to obscurities and international cult favorites.",
-        "imdb_id": "tt8284230",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt9018490",
-        "title": "Deadwax",
-        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
-        "rank": 19,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/deadwax",
-        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
-        "imdb_id": "tt9018490",
+        "imdb_id": "tt8865058",
         "weeks_in_top10": null
       },
       {
         "id": "tt7406320",
         "title": "Eli Roth's History of Horror",
         "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
         "description": "An in-depth look at the history and pop cultural significance of horror films.",
         "imdb_id": "tt7406320",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt9018490",
+        "title": "Deadwax",
+        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
+        "rank": 20,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/deadwax",
+        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
+        "imdb_id": "tt9018490",
         "weeks_in_top10": null
       }
     ]
