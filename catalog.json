@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-01T08:29:39+00:00",
+  "updated_at": "2026-10-02T08:05:04+00:00",
   "week": "2026-09-27",
   "catalogs": {
     "malaysia_movies": [
@@ -16,15 +16,15 @@
         "weeks_in_top10": 1
       },
       {
-        "id": "tl-polong",
+        "id": "tt35941605",
         "title": "Polong",
-        "poster": "https://images.justwatch.com/poster/342938255/s718/polong.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BOWI5OTJlNjctOTFlZS00NmNjLTkzMDQtMWUwMWQ4NWNlODljXkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 2,
         "type": "movie",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia",
         "description": "#2 on Netflix Malaysia - 2 week(s) in the Top 10",
-        "imdb_id": null,
+        "imdb_id": "tt35941605",
         "weeks_in_top10": 2
       },
       {
@@ -88,15 +88,15 @@
         "weeks_in_top10": 3
       },
       {
-        "id": "tl-unanswered-prayers",
+        "id": "tt1733733",
         "title": "Unanswered Prayers",
-        "poster": "https://image.tmdb.org/t/p/w500/uzu1ELeGfQaI0rqMUc6I9GupTD8.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BMjA5MTA4OTk4Nl5BMl5BanBnXkFtZTcwMjUzODI4NQ@@._V1_SX250.jpg",
         "rank": 8,
         "type": "movie",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia",
         "description": "#8 on Netflix Malaysia - 1 week(s) in the Top 10",
-        "imdb_id": null,
+        "imdb_id": "tt1733733",
         "weeks_in_top10": 1
       },
       {
@@ -260,22 +260,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt22207786",
-        "title": "Red Rooms",
-        "poster": "https://images.justwatch.com/poster/320923415/s718/les-chambres-rouges.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/les-chambres-rouges",
-        "description": "The high-profile case of serial killer Ludovic Chevalier has just gone to trial, and Kelly-Anne is obsessed. When reality blurs with her morbid fantasies, she goes down a dark path to seek the final piece of the case’s puzzle.",
-        "imdb_id": "tt22207786",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35222590",
         "title": "Exit 8",
         "poster": "https://images.justwatch.com/poster/341529722/s718/exit-8.jpg",
-        "rank": 3,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/exit-8",
@@ -284,27 +272,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37671737",
-        "title": "Buffet Infinity",
-        "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
-        "rank": 4,
+        "id": "tt22207786",
+        "title": "Red Rooms",
+        "poster": "https://images.justwatch.com/poster/320923415/s718/les-chambres-rouges.jpg",
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/buffet-infinity",
-        "description": "As an endlessly expanding monster buffet threatens to engulf their small Alberta county, a group of local business owners star in low-budget TV commercials that conceal a sinister conspiracy and the emergence of unfathomable supernatural powers.",
-        "imdb_id": "tt37671737",
+        "url": "https://www.justwatch.com/us/movie/les-chambres-rouges",
+        "description": "The high-profile case of serial killer Ludovic Chevalier has just gone to trial, and Kelly-Anne is obsessed. When reality blurs with her morbid fantasies, she goes down a dark path to seek the final piece of the case’s puzzle.",
+        "imdb_id": "tt22207786",
         "weeks_in_top10": null
       },
       {
         "id": "tt0230600",
         "title": "The Others",
         "poster": "https://images.justwatch.com/poster/180977891/s718/the-others-2001.jpg",
-        "rank": 5,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-others-2001",
         "description": "Grace is a woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions.",
         "imdb_id": "tt0230600",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt37671737",
+        "title": "Buffet Infinity",
+        "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/buffet-infinity",
+        "description": "As an endlessly expanding monster buffet threatens to engulf their small Alberta county, a group of local business owners star in low-budget TV commercials that conceal a sinister conspiracy and the emergence of unfathomable supernatural powers.",
+        "imdb_id": "tt37671737",
         "weeks_in_top10": null
       },
       {
@@ -320,22 +320,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt12749596",
-        "title": "Host",
-        "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
-        "rank": 7,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/host",
-        "description": "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realise they might not survive the night.",
-        "imdb_id": "tt12749596",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt0082933",
         "title": "Possession",
         "poster": "https://images.justwatch.com/poster/346193996/s718/possession-1981.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/possession-1981",
@@ -347,7 +335,7 @@
         "id": "tt0072271",
         "title": "The Texas Chain Saw Massacre",
         "poster": "https://images.justwatch.com/poster/245637061/s718/the-texas-chain-saw-massacre.jpg",
-        "rank": 9,
+        "rank": 8,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-texas-chain-saw-massacre",
@@ -356,10 +344,34 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt0095271",
+        "title": "Halloween 4: The Return of Michael Myers",
+        "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
+        "rank": 9,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
+        "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece.",
+        "imdb_id": "tt0095271",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt16300962",
+        "title": "When Evil Lurks",
+        "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
+        "rank": 10,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
+        "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
+        "imdb_id": "tt16300962",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt14619456",
         "title": "Faces of Death",
         "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 10,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
@@ -368,10 +380,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt4267026",
+        "title": "Hell House LLC",
+        "poster": "https://images.justwatch.com/poster/216335321/s718/hell-house-llc.jpg",
+        "rank": 12,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/hell-house-llc",
+        "description": "Five years after an unexplained malfunction causes the death of 15 tour-goers and staff on the opening night of a Halloween haunted house tour, a documentary crew travels back to the scene of the tragedy to find out what really happened.",
+        "imdb_id": "tt4267026",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt26470109",
         "title": "Oddity",
         "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
-        "rank": 11,
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/oddity",
@@ -383,7 +407,7 @@
         "id": "tt35521922",
         "title": "Good Boy",
         "poster": "https://images.justwatch.com/poster/334206902/s718/good-boy-2025.jpg",
-        "rank": 12,
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/good-boy-2025",
@@ -392,39 +416,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt0095271",
-        "title": "Halloween 4: The Return of Michael Myers",
-        "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
-        "rank": 13,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
-        "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece.",
-        "imdb_id": "tt0095271",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt4267026",
-        "title": "Hell House LLC",
-        "poster": "https://images.justwatch.com/poster/216335321/s718/hell-house-llc.jpg",
-        "rank": 14,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/hell-house-llc",
-        "description": "Five years after an unexplained malfunction causes the death of 15 tour-goers and staff on the opening night of a Halloween haunted house tour, a documentary crew travels back to the scene of the tragedy to find out what really happened.",
-        "imdb_id": "tt4267026",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt15284556",
-        "title": "Marama",
-        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "id": "tt3289956",
+        "title": "The Autopsy of Jane Doe",
+        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
         "rank": 15,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/marama",
-        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
-        "imdb_id": "tt15284556",
+        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
+        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
+        "imdb_id": "tt3289956",
         "weeks_in_top10": null
       },
       {
@@ -440,22 +440,34 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt16300962",
-        "title": "When Evil Lurks",
-        "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
+        "id": "tt12749596",
+        "title": "Host",
+        "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
         "rank": 17,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
-        "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
-        "imdb_id": "tt16300962",
+        "url": "https://www.justwatch.com/us/movie/host",
+        "description": "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realise they might not survive the night.",
+        "imdb_id": "tt12749596",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "rank": 18,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
         "weeks_in_top10": null
       },
       {
         "id": "tt10229558",
         "title": "The Dark and the Wicked",
         "poster": "https://images.justwatch.com/poster/210865175/s718/the-dark-and-the-wicked.jpg",
-        "rank": 18,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-dark-and-the-wicked",
@@ -464,27 +476,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt3289956",
-        "title": "The Autopsy of Jane Doe",
-        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
-        "rank": 19,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
-        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
-        "imdb_id": "tt3289956",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
+        "id": "tt0089175",
+        "title": "Fright Night",
+        "poster": "https://images.justwatch.com/poster/309188887/s718/fright-night-1985.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
+        "url": "https://www.justwatch.com/us/movie/fright-night-1985",
+        "description": "Charley Brewster, a high school student, accidentally discovers the true and creepy nature of Jerry Dandrige, his dashing and enigmatic new neighbor; but no one seems willing to believe him.",
+        "imdb_id": "tt0089175",
         "weeks_in_top10": null
       }
     ],
@@ -526,10 +526,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt4820370",
+        "title": "Channel Zero",
+        "poster": "https://images.justwatch.com/poster/38108324/s718/channel-zero.jpg",
+        "rank": 4,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/channel-zero",
+        "description": "A horror anthology series inspired by “Creepypasta” online tales.",
+        "imdb_id": "tt4820370",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt2309295",
         "title": "Hemlock Grove",
         "poster": "https://images.justwatch.com/poster/54064982/s718/hemlock-grove.jpg",
-        "rank": 4,
+        "rank": 5,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/hemlock-grove",
@@ -541,7 +553,7 @@
         "id": "tt8762206",
         "title": "Creepshow",
         "poster": "https://images.justwatch.com/poster/243849939/s718/creepshow.jpg",
-        "rank": 5,
+        "rank": 6,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/creepshow",
@@ -553,24 +565,12 @@
         "id": "tt2654620",
         "title": "The Strain",
         "poster": "https://images.justwatch.com/poster/21074466/s718/the-strain.jpg",
-        "rank": 6,
+        "rank": 7,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-strain",
         "description": "A high concept thriller that tells the story of Dr. Ephraim Goodweather, the head of the Center for Disease Control Canary Team in New York City. He and his team are called upon to investigate a mysterious viral outbreak with hallmarks of an ancient and evil strain of vampirism. As the strain spreads, Eph, his team, and an assembly of everyday New Yorkers, wage war for the fate of humanity itself.",
         "imdb_id": "tt2654620",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt4820370",
-        "title": "Channel Zero",
-        "poster": "https://images.justwatch.com/poster/38108324/s718/channel-zero.jpg",
-        "rank": 7,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/channel-zero",
-        "description": "A horror anthology series inspired by “Creepypasta” online tales.",
-        "imdb_id": "tt4820370",
         "weeks_in_top10": null
       },
       {
@@ -732,22 +732,10 @@
     ],
     "shudder_horror_new_movies": [
       {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 1,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 2,
+        "rank": 1,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -756,27 +744,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35050712",
-        "title": "Saccharine",
-        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 3,
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/saccharine",
-        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-        "imdb_id": "tt35050712",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
         "weeks_in_top10": null
       },
       {
         "id": "tt36647890",
         "title": "The Mortuary Assistant",
         "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 4,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
         "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
         "imdb_id": "tt36647890",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "rank": 4,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
         "weeks_in_top10": null
       },
       {
@@ -792,15 +792,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "id": "tt35050712",
+        "title": "Saccharine",
+        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
         "rank": 6,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
+        "url": "https://www.justwatch.com/us/movie/saccharine",
+        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+        "imdb_id": "tt35050712",
         "weeks_in_top10": null
       },
       {
@@ -852,22 +852,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37538172",
-        "title": "Bodycam",
-        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 11,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bodycam",
-        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-        "imdb_id": "tt37538172",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt34383465",
         "title": "Nightborn",
         "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 12,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/nightborn",
@@ -876,15 +864,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt15284556",
-        "title": "Marama",
-        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "id": "tt37538172",
+        "title": "Bodycam",
+        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
+        "rank": 12,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bodycam",
+        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+        "imdb_id": "tt37538172",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tm3007395",
+        "title": "Curse of the Ghoul Logs",
+        "poster": "https://images.justwatch.com/poster/355123040/s718/curse-of-the-ghoul-logs.jpg",
         "rank": 13,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/marama",
-        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
-        "imdb_id": "tt15284556",
+        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
+        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
+        "imdb_id": null,
         "weeks_in_top10": null
       },
       {
@@ -900,10 +900,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "rank": 15,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt8637438",
         "title": "Night Patrol",
         "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
-        "rank": 15,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
@@ -915,7 +927,7 @@
         "id": "tt35669125",
         "title": "This Is Not a Test",
         "poster": "https://images.justwatch.com/poster/342003088/s718/this-is-not-a-test-2025.jpg",
-        "rank": 16,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/this-is-not-a-test-2025",
@@ -927,7 +939,7 @@
         "id": "tt37671737",
         "title": "Buffet Infinity",
         "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
-        "rank": 17,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/buffet-infinity",
@@ -939,7 +951,7 @@
         "id": "tm2865762",
         "title": "Goody Goody",
         "poster": "https://images.justwatch.com/poster/344264797/s718/goody-goody.jpg",
-        "rank": 18,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/goody-goody",
@@ -951,24 +963,12 @@
         "id": "tt14500286",
         "title": "The Yeti",
         "poster": "https://images.justwatch.com/poster/344271666/s718/the-yeti.jpg",
-        "rank": 19,
+        "rank": 20,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-yeti",
         "description": "When an oil tycoon and a famous adventurer vanish into the harsh winter of remote northern Alaska, a hand-picked rescue team endeavors to bring them home. What they don’t know is that they are trespassing on The Yeti’s territory, and the elements are the least of their worries.",
         "imdb_id": "tt14500286",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt20411300",
-        "title": "The Twin",
-        "poster": "https://images.justwatch.com/poster/333540550/s718/the-twin-2024-0.jpg",
-        "rank": 20,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-twin-2024-0",
-        "description": "After the tragic loss of his son, a man begins experiencing terrifying visions of a shadowy figure that looks like himself. As reality unravels, he must confront his past and the supernatural force haunting him before it consumes him completely.",
-        "imdb_id": "tt20411300",
         "weeks_in_top10": null
       }
     ],
@@ -1046,27 +1046,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt21923908",
-        "title": "The 101 Scariest Horror Movie Moments of All Time",
-        "poster": "https://images.justwatch.com/poster/310232285/s718/the-101-scariest-horror-movie-moments-of-all-time.jpg",
-        "rank": 7,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/the-101-scariest-horror-movie-moments-of-all-time",
-        "description": "In this Shudder Original series, master filmmakers and genre experts celebrate and dissect the most terrifying moments of the greatest horror films ever made, exploring how these scenes were created and why they burned themselves into the brains of audiences around the world.",
-        "imdb_id": "tt21923908",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt13639222",
         "title": "Queer for Fear: The History of Queer Horror",
         "poster": "https://images.justwatch.com/poster/300492232/s718/queer-for-fear-the-history-of-queer-horror.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/queer-for-fear-the-history-of-queer-horror",
         "description": "A documentary telling the story of LGBTQIA+ horror and the relationship between queer audiences and horror, and the queer horror community as a whole.",
         "imdb_id": "tt13639222",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt21923908",
+        "title": "The 101 Scariest Horror Movie Moments of All Time",
+        "poster": "https://images.justwatch.com/poster/310232285/s718/the-101-scariest-horror-movie-moments-of-all-time.jpg",
+        "rank": 8,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/the-101-scariest-horror-movie-moments-of-all-time",
+        "description": "In this Shudder Original series, master filmmakers and genre experts celebrate and dissect the most terrifying moments of the greatest horror films ever made, exploring how these scenes were created and why they burned themselves into the brains of audiences around the world.",
+        "imdb_id": "tt21923908",
         "weeks_in_top10": null
       },
       {
