@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11T08:25:41+00:00",
+  "updated_at": "2026-10-12T08:46:52+00:00",
   "week": "2026-10-04",
   "catalogs": {
     "malaysia_movies": [
@@ -210,15 +210,15 @@
         "weeks_in_top10": 1
       },
       {
-        "id": "tt37819415",
+        "id": "tt11685906",
         "title": "Irreplaceable",
-        "poster": "https://images.justwatch.com/poster/334816700/s718/irreplaceable.jpg",
+        "poster": "https://m.media-amazon.com/images/M/MV5BNzYzMjkzZTAtMDgyZi00YzI5LTk0OTAtOGExOWVhMGRjZWRkXkEyXkFqcGc@._V1_SX250.jpg",
         "rank": 8,
         "type": "series",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia/tv",
         "description": "#8 on Netflix Malaysia - 1 week(s) in the Top 10",
-        "imdb_id": "tt37819415",
+        "imdb_id": "tt11685906",
         "weeks_in_top10": 1
       },
       {
@@ -284,27 +284,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt22207786",
-        "title": "Red Rooms",
-        "poster": "https://images.justwatch.com/poster/320923415/s718/les-chambres-rouges.jpg",
-        "rank": 4,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/les-chambres-rouges",
-        "description": "The high-profile case of serial killer Ludovic Chevalier has just gone to trial, and Kelly-Anne is obsessed. When reality blurs with her morbid fantasies, she goes down a dark path to seek the final piece of the case’s puzzle.",
-        "imdb_id": "tt22207786",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt0230600",
         "title": "The Others",
         "poster": "https://images.justwatch.com/poster/180977891/s718/the-others-2001.jpg",
-        "rank": 5,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-others-2001",
         "description": "Grace is a religious woman who lives in an old house kept dark because her two children, Anne and Nicholas, have a rare sensitivity to light. When the family begins to suspect the house is haunted, Grace fights to protect her children at any cost in the face of strange events and disturbing visions.",
         "imdb_id": "tt0230600",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt22207786",
+        "title": "Red Rooms",
+        "poster": "https://images.justwatch.com/poster/320923415/s718/les-chambres-rouges.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/les-chambres-rouges",
+        "description": "The high-profile case of serial killer Ludovic Chevalier has just gone to trial, and Kelly-Anne is obsessed. When reality blurs with her morbid fantasies, she goes down a dark path to seek the final piece of the case’s puzzle.",
+        "imdb_id": "tt22207786",
         "weeks_in_top10": null
       },
       {
@@ -368,22 +368,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt12749596",
-        "title": "Host",
-        "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
-        "rank": 11,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/host",
-        "description": "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realise they might not survive the night.",
-        "imdb_id": "tt12749596",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt26470109",
         "title": "Oddity",
         "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
-        "rank": 12,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/oddity",
@@ -392,27 +380,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt3289956",
-        "title": "The Autopsy of Jane Doe",
-        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
-        "rank": 13,
+        "id": "tt12749596",
+        "title": "Host",
+        "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
-        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
-        "imdb_id": "tt3289956",
+        "url": "https://www.justwatch.com/us/movie/host",
+        "description": "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realise they might not survive the night.",
+        "imdb_id": "tt12749596",
         "weeks_in_top10": null
       },
       {
         "id": "tt16300962",
         "title": "When Evil Lurks",
         "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
-        "rank": 14,
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
         "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
         "imdb_id": "tt16300962",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt3289956",
+        "title": "The Autopsy of Jane Doe",
+        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
+        "rank": 14,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
+        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
+        "imdb_id": "tt3289956",
         "weeks_in_top10": null
       },
       {
@@ -428,22 +428,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt15284556",
-        "title": "Marama",
-        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
-        "rank": 16,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/marama",
-        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
-        "imdb_id": "tt15284556",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt14966898",
         "title": "Late Night with the Devil",
         "poster": "https://images.justwatch.com/poster/312745008/s718/late-night-with-the-devil.jpg",
-        "rank": 17,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/late-night-with-the-devil",
@@ -455,12 +443,24 @@
         "id": "tt14619456",
         "title": "Faces of Death",
         "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 18,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
         "description": "A moderator on an internet video-sharing platform stumbles across a potential snuff film ring hidden in the depths of the site's content.",
         "imdb_id": "tt14619456",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "rank": 18,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
         "weeks_in_top10": null
       },
       {
@@ -476,15 +476,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt0200659",
-        "title": "Ghostwatch",
-        "poster": "https://images.justwatch.com/poster/302149912/s718/ghostwatch.jpg",
+        "id": "tt1999995",
+        "title": "Would You Rather",
+        "poster": "https://images.justwatch.com/poster/348286778/s718/would-you-rather.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/ghostwatch",
-        "description": "For Halloween 1992, the BBC decides to broadcast an investigation into the supernatural, hosted by TV chat-show legend Michael Parkinson. Parky (assisted by Mike Smith, Sarah Greene & Craig Charles) and a camera crew attempt to discover the truth behind the most haunted house in Britain. This ground-breaking live television experiment does not go as planned, however.",
-        "imdb_id": "tt0200659",
+        "url": "https://www.justwatch.com/us/movie/would-you-rather",
+        "description": "Desperate to help her ailing brother, a young woman agrees to compete in a deadly game of \"Would You Rather\" hosted by a sadistic aristocrat.",
+        "imdb_id": "tt1999995",
         "weeks_in_top10": null
       }
     ],
@@ -744,34 +744,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt35050712",
-        "title": "Saccharine",
-        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 3,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/saccharine",
-        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-        "imdb_id": "tt35050712",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 4,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -783,7 +759,7 @@
         "id": "tt33270103",
         "title": "Honey Bunch",
         "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 5,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/honey-bunch",
@@ -795,12 +771,36 @@
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 6,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
         "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
         "imdb_id": "tt32639175",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35050712",
+        "title": "Saccharine",
+        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/saccharine",
+        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+        "imdb_id": "tt35050712",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 6,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
         "weeks_in_top10": null
       },
       {
@@ -840,46 +840,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 10,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt37538172",
-        "title": "Bodycam",
-        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 11,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bodycam",
-        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-        "imdb_id": "tt37538172",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt34735922",
-        "title": "Bloody Tennis",
-        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
-        "rank": 12,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
-        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
-        "imdb_id": "tt34735922",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tm3007395",
         "title": "Curse of the Ghoul Logs",
         "poster": "https://images.justwatch.com/poster/355123040/s718/curse-of-the-ghoul-logs.jpg",
-        "rank": 13,
+        "rank": 10,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
@@ -891,7 +855,7 @@
         "id": "tt31474395",
         "title": "The Voices of Our Mother",
         "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
-        "rank": 14,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
@@ -903,7 +867,7 @@
         "id": "tt35682658",
         "title": "Infirmary",
         "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
-        "rank": 15,
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/infirmary",
@@ -912,15 +876,51 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt15284556",
-        "title": "Marama",
-        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
+        "id": "tt34735922",
+        "title": "Bloody Tennis",
+        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
+        "rank": 13,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
+        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
+        "imdb_id": "tt34735922",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt34383465",
+        "title": "Nightborn",
+        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
+        "rank": 14,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/nightborn",
+        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
+        "imdb_id": "tt34383465",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt37538172",
+        "title": "Bodycam",
+        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
+        "rank": 15,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bodycam",
+        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+        "imdb_id": "tt37538172",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt8637438",
+        "title": "Night Patrol",
+        "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
         "rank": 16,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/marama",
-        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
-        "imdb_id": "tt15284556",
+        "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
+        "description": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
+        "imdb_id": "tt8637438",
         "weeks_in_top10": null
       },
       {
@@ -936,15 +936,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt8637438",
-        "title": "Night Patrol",
-        "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
         "rank": 18,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
-        "description": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
-        "imdb_id": "tt8637438",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
         "weeks_in_top10": null
       },
       {
@@ -1178,27 +1178,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt7406320",
-        "title": "Eli Roth's History of Horror",
-        "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
-        "rank": 18,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
-        "description": "An in-depth look at the history and pop cultural significance of horror films.",
-        "imdb_id": "tt7406320",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt9018490",
         "title": "Deadwax",
         "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
-        "rank": 19,
+        "rank": 18,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/deadwax",
         "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
         "imdb_id": "tt9018490",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt7406320",
+        "title": "Eli Roth's History of Horror",
+        "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
+        "rank": 19,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
+        "description": "An in-depth look at the history and pop cultural significance of horror films.",
+        "imdb_id": "tt7406320",
         "weeks_in_top10": null
       },
       {
