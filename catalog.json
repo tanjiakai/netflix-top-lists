@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12T08:46:52+00:00",
+  "updated_at": "2026-10-13T09:04:53+00:00",
   "week": "2026-10-04",
   "catalogs": {
     "malaysia_movies": [
@@ -112,15 +112,15 @@
         "weeks_in_top10": 3
       },
       {
-        "id": "tt0120616",
+        "id": "tt2345759",
         "title": "The Mummy",
-        "poster": "https://images.justwatch.com/poster/9289716/s718/the-mummy.jpg",
+        "poster": "https://images.justwatch.com/poster/8540069/s718/the-mummy-2017.jpg",
         "rank": 10,
         "type": "movie",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia",
         "description": "#10 on Netflix Malaysia - 1 week(s) in the Top 10",
-        "imdb_id": "tt0120616",
+        "imdb_id": "tt2345759",
         "weeks_in_top10": 1
       }
     ],
@@ -380,10 +380,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt3289956",
+        "title": "The Autopsy of Jane Doe",
+        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
+        "rank": 12,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
+        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
+        "imdb_id": "tt3289956",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt12749596",
         "title": "Host",
         "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
-        "rank": 12,
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/host",
@@ -395,24 +407,12 @@
         "id": "tt16300962",
         "title": "When Evil Lurks",
         "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
-        "rank": 13,
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
         "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
         "imdb_id": "tt16300962",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt3289956",
-        "title": "The Autopsy of Jane Doe",
-        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
-        "rank": 14,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
-        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
-        "imdb_id": "tt3289956",
         "weeks_in_top10": null
       },
       {
@@ -476,15 +476,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt1999995",
-        "title": "Would You Rather",
-        "poster": "https://images.justwatch.com/poster/348286778/s718/would-you-rather.jpg",
+        "id": "tt2321549",
+        "title": "The Babadook",
+        "poster": "https://images.justwatch.com/poster/305408904/s718/the-babadook.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/would-you-rather",
-        "description": "Desperate to help her ailing brother, a young woman agrees to compete in a deadly game of \"Would You Rather\" hosted by a sadistic aristocrat.",
-        "imdb_id": "tt1999995",
+        "url": "https://www.justwatch.com/us/movie/the-babadook",
+        "description": "A grieving single mother and her child fall into a deep well of paranoia when an eerie children's book manifests in their home.",
+        "imdb_id": "tt2321549",
         "weeks_in_top10": null
       }
     ],
@@ -526,10 +526,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt4820370",
+        "title": "Channel Zero",
+        "poster": "https://images.justwatch.com/poster/38108324/s718/channel-zero.jpg",
+        "rank": 4,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/channel-zero",
+        "description": "A horror anthology series inspired by “Creepypasta” online tales.",
+        "imdb_id": "tt4820370",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt2309295",
         "title": "Hemlock Grove",
         "poster": "https://images.justwatch.com/poster/54064982/s718/hemlock-grove.jpg",
-        "rank": 4,
+        "rank": 5,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/hemlock-grove",
@@ -541,24 +553,12 @@
         "id": "tt8762206",
         "title": "Creepshow",
         "poster": "https://images.justwatch.com/poster/243849939/s718/creepshow.jpg",
-        "rank": 5,
+        "rank": 6,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/creepshow",
         "description": "A young boy's horror comic book comes to life in this anthology series of terrifying tales.",
         "imdb_id": "tt8762206",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt4820370",
-        "title": "Channel Zero",
-        "poster": "https://images.justwatch.com/poster/38108324/s718/channel-zero.jpg",
-        "rank": 6,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/channel-zero",
-        "description": "A horror anthology series inspired by “Creepypasta” online tales.",
-        "imdb_id": "tt4820370",
         "weeks_in_top10": null
       },
       {
@@ -732,46 +732,10 @@
     ],
     "shudder_horror_new_movies": [
       {
-        "id": "tt36647890",
-        "title": "The Mortuary Assistant",
-        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 1,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
-        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
-        "imdb_id": "tt36647890",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt35670732",
-        "title": "Penny Lane Is Dead",
-        "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
-        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
-        "imdb_id": "tt35670732",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 3,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 4,
+        "rank": 1,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
@@ -783,7 +747,7 @@
         "id": "tt35050712",
         "title": "Saccharine",
         "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 5,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/saccharine",
@@ -795,7 +759,7 @@
         "id": "tt29550683",
         "title": "Whistle",
         "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 6,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/whistle-2026",
@@ -804,22 +768,46 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt36871027",
-        "title": "Mother of Flies",
-        "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
-        "rank": 7,
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/mother-of-flies",
-        "description": "When a young woman faces a deadly diagnosis, she seeks dark magic from a witch in the woods - but every cure has costs.",
-        "imdb_id": "tt36871027",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35670732",
+        "title": "Penny Lane Is Dead",
+        "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
+        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
+        "imdb_id": "tt35670732",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt36647890",
+        "title": "The Mortuary Assistant",
+        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
+        "rank": 6,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
+        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
+        "imdb_id": "tt36647890",
         "weeks_in_top10": null
       },
       {
         "id": "tt14619456",
         "title": "Faces of Death",
         "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
@@ -831,12 +819,24 @@
         "id": "tm2953206",
         "title": "V/H/S/Mixtape",
         "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
-        "rank": 9,
+        "rank": 8,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
         "description": "The ninth installment of the horror anthology franchise.",
         "imdb_id": null,
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt36871027",
+        "title": "Mother of Flies",
+        "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
+        "rank": 9,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/mother-of-flies",
+        "description": "When a young woman faces a deadly diagnosis, she seeks dark magic from a witch in the woods - but every cure has costs.",
+        "imdb_id": "tt36871027",
         "weeks_in_top10": null
       },
       {
@@ -912,27 +912,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt8637438",
-        "title": "Night Patrol",
-        "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
-        "rank": 16,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
-        "description": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
-        "imdb_id": "tt8637438",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt30691214",
         "title": "Forbidden Fruits",
         "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
-        "rank": 17,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
         "description": "Free Eden employee Apple secretly runs a witchy femme cult in the basement of the mall store after hours - with fellow fruits Cherry and Fig. But when new hire Pumpkin challenges their performative sisterhood, the women are forced to face their own poisons or succumb to a bloody fate.",
         "imdb_id": "tt30691214",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt8637438",
+        "title": "Night Patrol",
+        "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
+        "rank": 17,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
+        "description": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
+        "imdb_id": "tt8637438",
         "weeks_in_top10": null
       },
       {
@@ -948,27 +948,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37671737",
-        "title": "Buffet Infinity",
-        "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
-        "rank": 19,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/buffet-infinity",
-        "description": "When a massive monster buffet threatens their Alberta county, local business owners star in low-budget TV commercials that mask a dark conspiracy and unleash terrifying supernatural powers.",
-        "imdb_id": "tt37671737",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35669125",
         "title": "This Is Not a Test",
         "poster": "https://images.justwatch.com/poster/342003088/s718/this-is-not-a-test-2025.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/this-is-not-a-test-2025",
         "description": "Sloane and four classmates take cover in Cortege High to escape a world plagued by the infected. As danger relentlessly pounds on the doors, Sloane begins to see the world through the eyes of those who actually want to live and takes matters into her own hands.",
         "imdb_id": "tt35669125",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt37671737",
+        "title": "Buffet Infinity",
+        "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
+        "rank": 20,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/buffet-infinity",
+        "description": "When a massive monster buffet threatens their Alberta county, local business owners star in low-budget TV commercials that mask a dark conspiracy and unleash terrifying supernatural powers.",
+        "imdb_id": "tt37671737",
         "weeks_in_top10": null
       }
     ],
@@ -1178,15 +1178,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt9018490",
-        "title": "Deadwax",
-        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
+        "id": "tt2708480",
+        "title": "The Terror",
+        "poster": "https://images.justwatch.com/poster/56620971/s718/the-terror.jpg",
         "rank": 18,
         "type": "series",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/deadwax",
-        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
-        "imdb_id": "tt9018490",
+        "url": "https://www.justwatch.com/us/tv-show/the-terror",
+        "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+        "imdb_id": "tt2708480",
         "weeks_in_top10": null
       },
       {
@@ -1202,15 +1202,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt2708480",
-        "title": "The Terror",
-        "poster": "https://images.justwatch.com/poster/56620971/s718/the-terror.jpg",
+        "id": "tt9018490",
+        "title": "Deadwax",
+        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
         "rank": 20,
         "type": "series",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/the-terror",
-        "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
-        "imdb_id": "tt2708480",
+        "url": "https://www.justwatch.com/us/tv-show/deadwax",
+        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
+        "imdb_id": "tt9018490",
         "weeks_in_top10": null
       }
     ]
