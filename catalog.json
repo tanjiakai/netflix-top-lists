@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13T09:04:53+00:00",
+  "updated_at": "2026-10-14T07:15:46+00:00",
   "week": "2026-10-04",
   "catalogs": {
     "malaysia_movies": [
@@ -126,15 +126,15 @@
     ],
     "malaysia_tv": [
       {
-        "id": "tt35052365",
+        "id": "tl-kudrat-1968-high-council",
         "title": "Kudrat 1968: High Council",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNjc3MDRiMmQtYjQyZC00NGQ5LThhZTktYTVmMGY5ZDIzMzRmXkEyXkFqcGc@._V1_SX250.jpg",
+        "poster": "https://images.justwatch.com/poster/354122419/s718/kudrat-1968-high-council.jpg",
         "rank": 1,
         "type": "series",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia/tv",
         "description": "#1 on Netflix Malaysia - 4 week(s) in the Top 10",
-        "imdb_id": "tt35052365",
+        "imdb_id": null,
         "weeks_in_top10": 4
       },
       {
@@ -210,15 +210,15 @@
         "weeks_in_top10": 1
       },
       {
-        "id": "tt11685906",
+        "id": "tl-irreplaceable",
         "title": "Irreplaceable",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNzYzMjkzZTAtMDgyZi00YzI5LTk0OTAtOGExOWVhMGRjZWRkXkEyXkFqcGc@._V1_SX250.jpg",
+        "poster": "https://image.tmdb.org/t/p/w500/uvdFDRZUUZarJirBQAjYk2yIkMi.jpg",
         "rank": 8,
         "type": "series",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia/tv",
         "description": "#8 on Netflix Malaysia - 1 week(s) in the Top 10",
-        "imdb_id": "tt11685906",
+        "imdb_id": null,
         "weeks_in_top10": 1
       },
       {
@@ -344,27 +344,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt4267026",
-        "title": "Hell House LLC",
-        "poster": "https://images.justwatch.com/poster/216335321/s718/hell-house-llc.jpg",
-        "rank": 9,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/hell-house-llc",
-        "description": "Five years after an unexplained malfunction causes the death of 15 tour-goers and staff on the opening night of a Halloween haunted house tour, a documentary crew travels back to the scene of the tragedy to find out what really happened.",
-        "imdb_id": "tt4267026",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt0095271",
         "title": "Halloween 4: The Return of Michael Myers",
         "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
-        "rank": 10,
+        "rank": 9,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
         "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece.",
         "imdb_id": "tt0095271",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt4267026",
+        "title": "Hell House LLC",
+        "poster": "https://images.justwatch.com/poster/216335321/s718/hell-house-llc.jpg",
+        "rank": 10,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/hell-house-llc",
+        "description": "Five years after an unexplained malfunction causes the death of 15 tour-goers and staff on the opening night of a Halloween haunted house tour, a documentary crew travels back to the scene of the tragedy to find out what really happened.",
+        "imdb_id": "tt4267026",
         "weeks_in_top10": null
       },
       {
@@ -526,10 +526,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt8762206",
+        "title": "Creepshow",
+        "poster": "https://images.justwatch.com/poster/243849939/s718/creepshow.jpg",
+        "rank": 4,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/creepshow",
+        "description": "A young boy's horror comic book comes to life in this anthology series of terrifying tales.",
+        "imdb_id": "tt8762206",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt4820370",
         "title": "Channel Zero",
         "poster": "https://images.justwatch.com/poster/38108324/s718/channel-zero.jpg",
-        "rank": 4,
+        "rank": 5,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/channel-zero",
@@ -541,24 +553,12 @@
         "id": "tt2309295",
         "title": "Hemlock Grove",
         "poster": "https://images.justwatch.com/poster/54064982/s718/hemlock-grove.jpg",
-        "rank": 5,
+        "rank": 6,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/hemlock-grove",
         "description": "One cannot quench his all-consuming thirst. The other cannot tame the beast clawing its way out. In the sleepy Pennsylvania village of Hemlock Grove, two young men struggle to accept painful truths: about family, themselves, the mystery of the White Tower - and a terrifying new threat so powerful it will turn them from predators into prey.",
         "imdb_id": "tt2309295",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt8762206",
-        "title": "Creepshow",
-        "poster": "https://images.justwatch.com/poster/243849939/s718/creepshow.jpg",
-        "rank": 6,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/creepshow",
-        "description": "A young boy's horror comic book comes to life in this anthology series of terrifying tales.",
-        "imdb_id": "tt8762206",
         "weeks_in_top10": null
       },
       {
@@ -574,10 +574,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt3843168",
+        "title": "Z Nation",
+        "poster": "https://images.justwatch.com/poster/173936889/s718/z-nation.jpg",
+        "rank": 8,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/z-nation",
+        "description": "Three years after the zombie virus has gutted the country, a team of everyday heroes must transport the only known survivor of the plague from New York to California, where the last functioning viral lab waits for his blood.",
+        "imdb_id": "tt3843168",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt5722214",
         "title": "Stan Against Evil",
         "poster": "https://images.justwatch.com/poster/88947897/s718/stan-against-evil.jpg",
-        "rank": 8,
+        "rank": 9,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/stan-against-evil",
@@ -589,7 +601,7 @@
         "id": "tt36460180",
         "title": "Guts & Glory",
         "poster": "https://images.justwatch.com/poster/337640932/s718/guts-and-glory.jpg",
-        "rank": 9,
+        "rank": 10,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/guts-and-glory",
@@ -601,24 +613,12 @@
         "id": "tt4667888",
         "title": "Slasher",
         "poster": "https://images.justwatch.com/poster/249473951/s718/slasher.jpg",
-        "rank": 10,
+        "rank": 11,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/slasher",
         "description": "Thirty years ago, in the sleepy community of Waterbury, a killer known as “The Executioner” murdered Sarah Bennett's parents. Now Sarah and her husband Dylan have returned to town, only to find herself the centerpiece in a series of horrifying murders centered around the seven deadly sins.",
         "imdb_id": "tt4667888",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt3843168",
-        "title": "Z Nation",
-        "poster": "https://images.justwatch.com/poster/173936889/s718/z-nation.jpg",
-        "rank": 11,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/z-nation",
-        "description": "Three years after the zombie virus has gutted the country, a team of everyday heroes must transport the only known survivor of the plague from New York to California, where the last functioning viral lab waits for his blood.",
-        "imdb_id": "tt3843168",
         "weeks_in_top10": null
       },
       {
@@ -756,22 +756,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 3,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt33270103",
         "title": "Honey Bunch",
         "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 4,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/honey-bunch",
@@ -783,7 +771,7 @@
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 5,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -795,12 +783,24 @@
         "id": "tt36647890",
         "title": "The Mortuary Assistant",
         "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 6,
+        "rank": 5,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
         "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
         "imdb_id": "tt36647890",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 6,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
         "weeks_in_top10": null
       },
       {
@@ -1178,10 +1178,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt9018490",
+        "title": "Deadwax",
+        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
+        "rank": 18,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/deadwax",
+        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
+        "imdb_id": "tt9018490",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt2708480",
         "title": "The Terror",
         "poster": "https://images.justwatch.com/poster/56620971/s718/the-terror.jpg",
-        "rank": 18,
+        "rank": 19,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-terror",
@@ -1193,24 +1205,12 @@
         "id": "tt7406320",
         "title": "Eli Roth's History of Horror",
         "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
-        "rank": 19,
+        "rank": 20,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
         "description": "An in-depth look at the history and pop cultural significance of horror films.",
         "imdb_id": "tt7406320",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt9018490",
-        "title": "Deadwax",
-        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
-        "rank": 20,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/deadwax",
-        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
-        "imdb_id": "tt9018490",
         "weeks_in_top10": null
       }
     ]
