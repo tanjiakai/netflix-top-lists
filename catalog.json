@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18T07:03:27+00:00",
+  "updated_at": "2026-10-19T07:26:40+00:00",
   "week": "2026-10-04",
   "catalogs": {
     "malaysia_movies": [
@@ -320,27 +320,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt30691214",
-        "title": "Forbidden Fruits",
-        "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
-        "rank": 7,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
-        "description": "Free Eden employee Apple secretly runs a witchy femme cult in the basement of the mall store after hours - with fellow fruits Cherry and Fig. But when new hire Pumpkin challenges their performative sisterhood, the women are forced to face their own poisons or succumb to a bloody fate.",
-        "imdb_id": "tt30691214",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt0082933",
         "title": "Possession",
         "poster": "https://images.justwatch.com/poster/346193996/s718/possession-1981.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/possession-1981",
         "description": "A young woman left her family for an unspecified reason. The husband determines to find out the truth and starts following his wife. At first, he suspects that a man is involved. But gradually, he finds out more and more strange behaviors and bizarre incidents that indicate something more than a possessed love affair.",
         "imdb_id": "tt0082933",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt30691214",
+        "title": "Forbidden Fruits",
+        "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
+        "rank": 8,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
+        "description": "Free Eden employee Apple secretly runs a witchy femme cult in the basement of the mall store after hours with fellow fruits Cherry and Fig. When new hire Pumpkin challenges their performative sisterhood, the women are forced to face their own poisons or succumb to a bloody fate.",
+        "imdb_id": "tt30691214",
         "weeks_in_top10": null
       },
       {
@@ -368,22 +368,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt26470109",
-        "title": "Oddity",
-        "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
-        "rank": 11,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/oddity",
-        "description": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime.",
-        "imdb_id": "tt26470109",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt0095271",
         "title": "Halloween 4: The Return of Michael Myers",
         "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
-        "rank": 12,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
@@ -392,27 +380,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37671737",
-        "title": "Buffet Infinity",
-        "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
-        "rank": 13,
+        "id": "tt26470109",
+        "title": "Oddity",
+        "poster": "https://images.justwatch.com/poster/317487244/s718/oddity.jpg",
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/buffet-infinity",
-        "description": "When a massive monster buffet threatens their Alberta county, local business owners star in low-budget TV commercials that mask a dark conspiracy and unleash terrifying supernatural powers.",
-        "imdb_id": "tt37671737",
+        "url": "https://www.justwatch.com/us/movie/oddity",
+        "description": "A psychic medium attempts to uncover the truth behind her sister's murder at the site of the crime.",
+        "imdb_id": "tt26470109",
         "weeks_in_top10": null
       },
       {
         "id": "tt0450385",
         "title": "1408",
         "poster": "https://images.justwatch.com/poster/244040016/s718/1408.jpg",
-        "rank": 14,
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/1408",
         "description": "A man who specializes in debunking paranormal occurrences checks into the fabled room 1408 at the Dolphin Hotel. Soon after settling in, he confronts genuine terror.",
         "imdb_id": "tt0450385",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt37671737",
+        "title": "Buffet Infinity",
+        "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
+        "rank": 14,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/buffet-infinity",
+        "description": "When a massive monster buffet threatens their Alberta county, local business owners star in low-budget TV commercials that mask a dark conspiracy and unleash terrifying supernatural powers.",
+        "imdb_id": "tt37671737",
         "weeks_in_top10": null
       },
       {
@@ -440,10 +440,34 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt10229558",
+        "title": "The Dark and the Wicked",
+        "poster": "https://images.justwatch.com/poster/210865175/s718/the-dark-and-the-wicked.jpg",
+        "rank": 17,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-dark-and-the-wicked",
+        "description": "On a secluded farm in a nondescript rural town, a man is slowly dying. His family gathers to mourn, and soon a darkness grows, marked by waking nightmares and a growing sense that something evil is taking over the family.",
+        "imdb_id": "tt10229558",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt0261983",
+        "title": "Session 9",
+        "poster": "https://images.justwatch.com/poster/138632887/s718/session-9.jpg",
+        "rank": 18,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/session-9",
+        "description": "Tensions rise within an asbestos cleaning crew as they work in an abandoned mental hospital with a horrific past that seems to be coming back.",
+        "imdb_id": "tt0261983",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt35521922",
         "title": "Good Boy",
         "poster": "https://images.justwatch.com/poster/334206902/s718/good-boy-2025.jpg",
-        "rank": 17,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/good-boy-2025",
@@ -455,36 +479,12 @@
         "id": "tt3986820",
         "title": "The Endless",
         "poster": "https://images.justwatch.com/poster/63461860/s718/the-endless.jpg",
-        "rank": 18,
+        "rank": 20,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-endless",
         "description": "Two brothers return to the cult they fled from years ago to discover that the group's beliefs may be more sane than they once thought.",
         "imdb_id": "tt3986820",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt2980592",
-        "title": "The Guest",
-        "poster": "https://images.justwatch.com/poster/309478989/s718/the-guest.jpg",
-        "rank": 19,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-guest",
-        "description": "A soldier introduces himself to the Peterson family, claiming to be a friend of their son who died in action. After the young man is welcomed into their home, a series of accidental deaths seem to be connected to his presence.",
-        "imdb_id": "tt2980592",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt2321549",
-        "title": "The Babadook",
-        "poster": "https://images.justwatch.com/poster/305408904/s718/the-babadook.jpg",
-        "rank": 20,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-babadook",
-        "description": "A grieving single mother and her child fall into a deep well of paranoia when an eerie children's book manifests in their home.",
-        "imdb_id": "tt2321549",
         "weeks_in_top10": null
       }
     ],
@@ -744,15 +744,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt32639175",
-        "title": "Dolly",
-        "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
         "rank": 2,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/dolly",
-        "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
-        "imdb_id": "tt32639175",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
         "weeks_in_top10": null
       },
       {
@@ -768,22 +768,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 4,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 5,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -792,27 +780,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 6,
+        "id": "tt32639175",
+        "title": "Dolly",
+        "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
+        "rank": 5,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
+        "url": "https://www.justwatch.com/us/movie/dolly",
+        "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
+        "imdb_id": "tt32639175",
         "weeks_in_top10": null
       },
       {
         "id": "tt35050712",
         "title": "Saccharine",
         "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 7,
+        "rank": 6,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/saccharine",
         "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
         "imdb_id": "tt35050712",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 7,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
         "weeks_in_top10": null
       },
       {
@@ -828,10 +828,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tm2953206",
+        "title": "V/H/S/Mixtape",
+        "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
+        "rank": 9,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
+        "description": "The ninth installment of the horror anthology franchise.",
+        "imdb_id": null,
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt14619456",
         "title": "Faces of Death",
         "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 9,
+        "rank": 10,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
@@ -840,39 +852,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37538172",
-        "title": "Bodycam",
-        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 10,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bodycam",
-        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-        "imdb_id": "tt37538172",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tm3007395",
-        "title": "Curse of the Ghoul Logs",
-        "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
+        "id": "tt34383465",
+        "title": "Nightborn",
+        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
         "rank": 11,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
-        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
-        "imdb_id": null,
+        "url": "https://www.justwatch.com/us/movie/nightborn",
+        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
+        "imdb_id": "tt34383465",
         "weeks_in_top10": null
       },
       {
-        "id": "tt31474395",
-        "title": "The Voices of Our Mother",
-        "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
+        "id": "tt34967068",
+        "title": "Touch Me",
+        "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
         "rank": 12,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
-        "description": "When a family matriarch falls seriously ill, relatives gather and discover their shared ancestral ties bind them in unexpected ways.",
-        "imdb_id": "tt31474395",
+        "url": "https://www.justwatch.com/us/movie/touch-me-2026",
+        "description": "Two codependent best friends become addicted to the heroin-like touch of an alien narcissist who may or may not be trying to take over the world.",
+        "imdb_id": "tt34967068",
         "weeks_in_top10": null
       },
       {
@@ -888,10 +888,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tm3007395",
+        "title": "Curse of the Ghoul Logs",
+        "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
+        "rank": 14,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
+        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
+        "imdb_id": null,
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt35682658",
         "title": "Infirmary",
         "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
-        "rank": 14,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/infirmary",
@@ -900,39 +912,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 15,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt34967068",
-        "title": "Touch Me",
-        "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
+        "id": "tt37538172",
+        "title": "Bodycam",
+        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
         "rank": 16,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/touch-me-2026",
-        "description": "Two codependent best friends become addicted to the heroin-like touch of an alien narcissist who may or may not be trying to take over the world.",
-        "imdb_id": "tt34967068",
+        "url": "https://www.justwatch.com/us/movie/bodycam",
+        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+        "imdb_id": "tt37538172",
         "weeks_in_top10": null
       },
       {
-        "id": "tt8637438",
-        "title": "Night Patrol",
-        "poster": "https://images.justwatch.com/poster/335981965/s718/night-patrol-2025-1.jpg",
+        "id": "tt31474395",
+        "title": "The Voices of Our Mother",
+        "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
         "rank": 17,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/night-patrol-2025-1",
-        "description": "An L.A. cop discovers a local task force is hiding a secret that puts the residents of his childhood neighborhood in danger.",
-        "imdb_id": "tt8637438",
+        "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
+        "description": "When a family matriarch falls seriously ill, relatives gather and discover their shared ancestral ties bind them in unexpected ways.",
+        "imdb_id": "tt31474395",
         "weeks_in_top10": null
       },
       {
@@ -943,32 +943,32 @@
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/hallowarrior",
-        "description": "Pumpkin, the last girl on earth and sole survivor of a humanity-ending plague, scavenging the wasteland for supplies on the eve of Halloween. Pumpkin’s lonely holiday ritual is interrupted by the arrival of a savage gang of raiders at her doorstep, led by the fearsome Thalia. Outnumbered and armed with candy, wit and weapons, Pumpkin must ferociously fight back to survive the night.",
+        "description": "Pumpkin, the last girl on earth and sole survivor of a humanity-ending plague, scavenges the wasteland for supplies on the eve of Halloween. Pumpkin’s lonely holiday ritual is interrupted by the arrival of a savage gang of raiders at her doorstep, led by the fearsome Thalia. Outnumbered and armed with candy, wit and weapons, Pumpkin must ferociously fight back to survive the night.",
         "imdb_id": "tt29703555",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt30691214",
-        "title": "Forbidden Fruits",
-        "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
-        "rank": 19,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
-        "description": "Free Eden employee Apple secretly runs a witchy femme cult in the basement of the mall store after hours - with fellow fruits Cherry and Fig. But when new hire Pumpkin challenges their performative sisterhood, the women are forced to face their own poisons or succumb to a bloody fate.",
-        "imdb_id": "tt30691214",
         "weeks_in_top10": null
       },
       {
         "id": "tt15284556",
         "title": "Marama",
         "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/marama",
         "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
         "imdb_id": "tt15284556",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt30691214",
+        "title": "Forbidden Fruits",
+        "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
+        "rank": 20,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
+        "description": "Free Eden employee Apple secretly runs a witchy femme cult in the basement of the mall store after hours with fellow fruits Cherry and Fig. When new hire Pumpkin challenges their performative sisterhood, the women are forced to face their own poisons or succumb to a bloody fate.",
+        "imdb_id": "tt30691214",
         "weeks_in_top10": null
       }
     ],
@@ -1202,15 +1202,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt7406320",
-        "title": "Eli Roth's History of Horror",
-        "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
+        "id": "tt2708480",
+        "title": "The Terror",
+        "poster": "https://images.justwatch.com/poster/56620971/s718/the-terror.jpg",
         "rank": 20,
         "type": "series",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
-        "description": "An in-depth look at the history and pop cultural significance of horror films.",
-        "imdb_id": "tt7406320",
+        "url": "https://www.justwatch.com/us/tv-show/the-terror",
+        "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+        "imdb_id": "tt2708480",
         "weeks_in_top10": null
       }
     ]
