@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-09T09:21:19+00:00",
+  "updated_at": "2026-11-10T09:25:13+00:00",
   "week": "2026-11-01",
   "catalogs": {
     "malaysia_movies": [
@@ -380,27 +380,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt3289956",
-        "title": "The Autopsy of Jane Doe",
-        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
-        "rank": 12,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
-        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
-        "imdb_id": "tt3289956",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt37671737",
         "title": "Buffet Infinity",
         "poster": "https://images.justwatch.com/poster/344639065/s718/buffet-infinity.jpg",
-        "rank": 13,
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/buffet-infinity",
         "description": "When a massive monster buffet threatens their Alberta county, local business owners star in low-budget TV commercials that mask a dark conspiracy and unleash terrifying supernatural powers.",
         "imdb_id": "tt37671737",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt3289956",
+        "title": "The Autopsy of Jane Doe",
+        "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
+        "rank": 13,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
+        "description": "Father and son coroners receive a mysterious unidentified corpse with no apparent cause of death. As they attempt to examine the \"Jane Doe,\" they discover increasingly bizarre clues that hold the key to her terrifying secrets.",
+        "imdb_id": "tt3289956",
         "weeks_in_top10": null
       },
       {
@@ -744,22 +744,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37694048",
-        "title": "New Group",
-        "poster": "https://images.justwatch.com/poster/356621526/s718/new-group.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/new-group",
-        "description": "Ai is a high school girl who feels suffocated by social pressure, but finds it hard to fight going with the flow. One day, the people in her school inexplicably start to form a human pyramid. The principal and other teachers start to act weird and encourage taking part in it, and the various gymnastic formations start to spread and take over the whole town. Eventually only Ai and Yuu, a transfer student who finds it hard to fit in, are left to rebel against the conformity madness.",
-        "imdb_id": "tt37694048",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 3,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -771,7 +759,7 @@
         "id": "tt33270103",
         "title": "Honey Bunch",
         "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 4,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/honey-bunch",
@@ -780,34 +768,22 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt36647890",
-        "title": "The Mortuary Assistant",
-        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 5,
+        "id": "tt37694048",
+        "title": "New Group",
+        "poster": "https://images.justwatch.com/poster/356621526/s718/new-group.jpg",
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
-        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
-        "imdb_id": "tt36647890",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt35050712",
-        "title": "Saccharine",
-        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 6,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/saccharine",
-        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-        "imdb_id": "tt35050712",
+        "url": "https://www.justwatch.com/us/movie/new-group",
+        "description": "Ai is a high school girl who feels suffocated by social pressure, but finds it hard to fight going with the flow. One day, the people in her school inexplicably start to form a human pyramid. The principal and other teachers start to act weird and encourage taking part in it, and the various gymnastic formations start to spread and take over the whole town. Eventually only Ai and Yuu, a transfer student who finds it hard to fit in, are left to rebel against the conformity madness.",
+        "imdb_id": "tt37694048",
         "weeks_in_top10": null
       },
       {
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 7,
+        "rank": 5,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
@@ -816,15 +792,39 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt36647890",
+        "title": "The Mortuary Assistant",
+        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
+        "rank": 6,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
+        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
+        "imdb_id": "tt36647890",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt29550683",
         "title": "Whistle",
         "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/whistle-2026",
         "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
         "imdb_id": "tt29550683",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35050712",
+        "title": "Saccharine",
+        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
+        "rank": 8,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/saccharine",
+        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+        "imdb_id": "tt35050712",
         "weeks_in_top10": null
       },
       {
@@ -840,10 +840,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt14619456",
+        "title": "Faces of Death",
+        "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
+        "rank": 10,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
+        "description": "A moderator on an internet video-sharing platform stumbles across a potential snuff film ring hidden in the depths of the site's content.",
+        "imdb_id": "tt14619456",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt43739386",
         "title": "V/H/S/Mixtape",
         "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
-        "rank": 10,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
@@ -855,24 +867,12 @@
         "id": "tt32358390",
         "title": "The Cycle",
         "poster": "https://images.justwatch.com/poster/353464933/s718/the-cycle-2026-1.jpg",
-        "rank": 11,
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-cycle-2026-1",
         "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
         "imdb_id": "tt32358390",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt14619456",
-        "title": "Faces of Death",
-        "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 12,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
-        "description": "A moderator on an internet video-sharing platform stumbles across a potential snuff film ring hidden in the depths of the site's content.",
-        "imdb_id": "tt14619456",
         "weeks_in_top10": null
       },
       {
@@ -888,34 +888,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34735922",
-        "title": "Bloody Tennis",
-        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
-        "rank": 14,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
-        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
-        "imdb_id": "tt34735922",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt34383465",
-        "title": "Nightborn",
-        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 15,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/nightborn",
-        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
-        "imdb_id": "tt34383465",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt31474395",
         "title": "The Voices of Our Mother",
         "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
-        "rank": 16,
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
@@ -924,10 +900,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt34735922",
+        "title": "Bloody Tennis",
+        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
+        "rank": 15,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
+        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
+        "imdb_id": "tt34735922",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tm3007395",
         "title": "Curse of the Ghoul Logs",
         "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
-        "rank": 17,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
@@ -939,7 +927,7 @@
         "id": "tt43712082",
         "title": "2026 Fangoria Chainsaw Awards",
         "poster": "https://images.justwatch.com/poster/355784210/s718/2026-fangoria-chainsaw-awards.jpg",
-        "rank": 18,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/2026-fangoria-chainsaw-awards",
@@ -951,7 +939,7 @@
         "id": "tt35682658",
         "title": "Infirmary",
         "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
-        "rank": 19,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/infirmary",
@@ -963,12 +951,24 @@
         "id": "tt34967068",
         "title": "Touch Me",
         "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/touch-me-2026",
         "description": "Two codependent best friends become addicted to the heroin-like touch of an alien narcissist who may or may not be trying to take over the world.",
         "imdb_id": "tt34967068",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt34383465",
+        "title": "Nightborn",
+        "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
+        "rank": 20,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/nightborn",
+        "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
+        "imdb_id": "tt34383465",
         "weeks_in_top10": null
       }
     ],
