@@ -1,12 +1,12 @@
 {
-  "updated_at": "2026-11-13T09:13:32+00:00",
+  "updated_at": "2026-11-14T08:43:13+00:00",
   "week": "2026-11-08",
   "catalogs": {
     "malaysia_movies": [
       {
         "id": "tt33184184",
         "title": "Kong Tao",
-        "poster": "https://m.media-amazon.com/images/M/MV5BYzY5MDE2YTAtODE4MC00ZDViLTkzZGQtZjM0MTkwNWY5YzUzXkEyXkFqcGc@._V1_SX250.jpg",
+        "poster": "https://images.metahub.space/poster/small/tt33184184/img",
         "rank": 1,
         "type": "movie",
         "region": "malaysia",
@@ -64,15 +64,15 @@
         "weeks_in_top10": 1
       },
       {
-        "id": "tt31070670",
+        "id": "tl-the-damnation",
         "title": "The Damnation",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNGViYzJjZjMtM2MwOS00YWIyLWFhOTgtOGFkMmQ1YzJjMTNlXkEyXkFqcGc@._V1_SX250.jpg",
+        "poster": "https://images.justwatch.com/poster/321977713/s718/the-damnation.jpg",
         "rank": 6,
         "type": "movie",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia",
         "description": "#6 on Netflix Malaysia - 1 week(s) in the Top 10",
-        "imdb_id": "tt31070670",
+        "imdb_id": null,
         "weeks_in_top10": 1
       },
       {
@@ -152,7 +152,7 @@
       {
         "id": "tt35052365",
         "title": "Kudrat 1968: High Council",
-        "poster": "https://m.media-amazon.com/images/M/MV5BNjc3MDRiMmQtYjQyZC00NGQ5LThhZTktYTVmMGY5ZDIzMzRmXkEyXkFqcGc@._V1_SX250.jpg",
+        "poster": "https://images.metahub.space/poster/small/tt35052365/img",
         "rank": 3,
         "type": "series",
         "region": "malaysia",
@@ -476,15 +476,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt3387520",
-        "title": "Scary Stories to Tell in the Dark",
-        "poster": "https://images.justwatch.com/poster/243056978/s718/scary-stories-to-tell-in-the-dark.jpg",
+        "id": "tt15284556",
+        "title": "Marama",
+        "poster": "https://images.justwatch.com/poster/347124669/s718/marama.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/scary-stories-to-tell-in-the-dark",
-        "description": "Mill Valley, Pennsylvania, Halloween night, 1968. After playing a joke on a school bully, Stella and her friends decide to sneak into a supposedly haunted house that once belonged to the powerful Bellows family, unleashing dark forces that they will be unable to control.",
-        "imdb_id": "tt3387520",
+        "url": "https://www.justwatch.com/us/movie/marama",
+        "description": "A young Maori woman arrives in Victorian Yorkshire seeking her family history, only to become trapped inside a manor where stolen heritage, buried secrets, and supernatural visions close around her.",
+        "imdb_id": "tt15284556",
         "weeks_in_top10": null
       }
     ],
@@ -744,15 +744,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35670732",
-        "title": "Penny Lane Is Dead",
-        "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
+        "id": "tt37694048",
+        "title": "New Group",
+        "poster": "https://images.justwatch.com/poster/356621526/s718/new-group.jpg",
         "rank": 2,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
-        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
-        "imdb_id": "tt35670732",
+        "url": "https://www.justwatch.com/us/movie/new-group",
+        "description": "Ai is a high school girl who feels suffocated by social pressure, but finds it hard to fight going with the flow. One day, the people in her school inexplicably start to form a human pyramid. The principal and other teachers start to act weird and encourage taking part in it, and the various gymnastic formations start to spread and take over the whole town. Eventually only Ai and Yuu, a transfer student who finds it hard to fit in, are left to rebel against the conformity madness.",
+        "imdb_id": "tt37694048",
         "weeks_in_top10": null
       },
       {
@@ -768,22 +768,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35050712",
-        "title": "Saccharine",
-        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 4,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/saccharine",
-        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-        "imdb_id": "tt35050712",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt36647890",
         "title": "The Mortuary Assistant",
         "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
-        "rank": 5,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
@@ -792,39 +780,51 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37694048",
-        "title": "New Group",
-        "poster": "https://images.justwatch.com/poster/356621526/s718/new-group.jpg",
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35670732",
+        "title": "Penny Lane Is Dead",
+        "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
         "rank": 6,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/new-group",
-        "description": "Ai is a high school girl who feels suffocated by social pressure, but finds it hard to fight going with the flow. One day, the people in her school inexplicably start to form a human pyramid. The principal and other teachers start to act weird and encourage taking part in it, and the various gymnastic formations start to spread and take over the whole town. Eventually only Ai and Yuu, a transfer student who finds it hard to fit in, are left to rebel against the conformity madness.",
-        "imdb_id": "tt37694048",
+        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
+        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
+        "imdb_id": "tt35670732",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35050712",
+        "title": "Saccharine",
+        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
+        "rank": 7,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/saccharine",
+        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+        "imdb_id": "tt35050712",
         "weeks_in_top10": null
       },
       {
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 7,
+        "rank": 8,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
         "description": "Young Macy is abducted by a deranged, monstrous figure who wants to raise her as its child.",
         "imdb_id": "tt32639175",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 8,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
         "weeks_in_top10": null
       },
       {
@@ -840,27 +840,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt36871027",
-        "title": "Mother of Flies",
-        "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
-        "rank": 10,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/mother-of-flies",
-        "description": "When a young woman faces a deadly diagnosis, she seeks dark magic from a witch in the woods - but every cure has costs.",
-        "imdb_id": "tt36871027",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt43739386",
         "title": "V/H/S/Mixtape",
         "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
-        "rank": 11,
+        "rank": 10,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
         "description": "The ninth installment of the horror anthology franchise.",
         "imdb_id": "tt43739386",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt36871027",
+        "title": "Mother of Flies",
+        "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
+        "rank": 11,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/mother-of-flies",
+        "description": "When a young woman faces a deadly diagnosis, she seeks dark magic from a witch in the woods - but every cure has costs.",
+        "imdb_id": "tt36871027",
         "weeks_in_top10": null
       },
       {
@@ -876,10 +876,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt34967068",
+        "title": "Touch Me",
+        "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
+        "rank": 13,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/touch-me-2026",
+        "description": "Two codependent best friends become addicted to the heroin-like touch of an alien narcissist who may or may not be trying to take over the world.",
+        "imdb_id": "tt34967068",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt31474395",
         "title": "The Voices of Our Mother",
         "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
-        "rank": 13,
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
@@ -888,27 +900,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35682658",
-        "title": "Infirmary",
-        "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
-        "rank": 14,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/infirmary",
-        "description": "A guard vanished on his first night at an old psych hospital in 2023. His bodycam footage shows unexplainable incidents that continue to baffle investigators.",
-        "imdb_id": "tt35682658",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt34967068",
-        "title": "Touch Me",
-        "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
+        "id": "tm3007395",
+        "title": "Curse of the Ghoul Logs",
+        "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
         "rank": 15,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/touch-me-2026",
-        "description": "Two codependent best friends become addicted to the heroin-like touch of an alien narcissist who may or may not be trying to take over the world.",
-        "imdb_id": "tt34967068",
+        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
+        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
+        "imdb_id": null,
         "weeks_in_top10": null
       },
       {
@@ -924,34 +924,22 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tm3007395",
-        "title": "Curse of the Ghoul Logs",
-        "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
+        "id": "tt35682658",
+        "title": "Infirmary",
+        "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
         "rank": 17,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
-        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
-        "imdb_id": null,
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt37538172",
-        "title": "Bodycam",
-        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 18,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bodycam",
-        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-        "imdb_id": "tt37538172",
+        "url": "https://www.justwatch.com/us/movie/infirmary",
+        "description": "A guard vanished on his first night at an old psych hospital in 2023. His bodycam footage shows unexplainable incidents that continue to baffle investigators.",
+        "imdb_id": "tt35682658",
         "weeks_in_top10": null
       },
       {
         "id": "tt43712082",
         "title": "2026 Fangoria Chainsaw Awards",
         "poster": "https://images.justwatch.com/poster/355784210/s718/2026-fangoria-chainsaw-awards.jpg",
-        "rank": 19,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/2026-fangoria-chainsaw-awards",
@@ -963,12 +951,24 @@
         "id": "tt34383465",
         "title": "Nightborn",
         "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/nightborn",
         "description": "In Finnish forest, Saga and her husband Jon embark on a new chapter as parents. But Saga's joy is overshadowed by a chilling suspicion about their newborn, unbeknownst to Jon, causing a rift as she alone grapples with the disturbing truth.",
         "imdb_id": "tt34383465",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt37538172",
+        "title": "Bodycam",
+        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
+        "rank": 20,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bodycam",
+        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+        "imdb_id": "tt37538172",
         "weeks_in_top10": null
       }
     ],
@@ -1070,27 +1070,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt13639222",
-        "title": "Queer for Fear: The History of Queer Horror",
-        "poster": "https://images.justwatch.com/poster/300492232/s718/queer-for-fear-the-history-of-queer-horror.jpg",
-        "rank": 9,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/queer-for-fear-the-history-of-queer-horror",
-        "description": "A documentary telling the story of LGBTQIA+ horror and the relationship between queer audiences and horror, and the queer horror community as a whole.",
-        "imdb_id": "tt13639222",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt21923908",
         "title": "The 101 Scariest Horror Movie Moments of All Time",
         "poster": "https://images.justwatch.com/poster/310232285/s718/the-101-scariest-horror-movie-moments-of-all-time.jpg",
-        "rank": 10,
+        "rank": 9,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-101-scariest-horror-movie-moments-of-all-time",
         "description": "In this Shudder Original series, master filmmakers and genre experts celebrate and dissect the most terrifying moments of the greatest horror films ever made, exploring how these scenes were created and why they burned themselves into the brains of audiences around the world.",
         "imdb_id": "tt21923908",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt13639222",
+        "title": "Queer for Fear: The History of Queer Horror",
+        "poster": "https://images.justwatch.com/poster/300492232/s718/queer-for-fear-the-history-of-queer-horror.jpg",
+        "rank": 10,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/queer-for-fear-the-history-of-queer-horror",
+        "description": "A documentary telling the story of LGBTQIA+ horror and the relationship between queer audiences and horror, and the queer horror community as a whole.",
+        "imdb_id": "tt13639222",
         "weeks_in_top10": null
       },
       {
@@ -1190,27 +1190,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt7406320",
-        "title": "Eli Roth's History of Horror",
-        "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
-        "rank": 19,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
-        "description": "An in-depth look at the history and pop cultural significance of horror films.",
-        "imdb_id": "tt7406320",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt9018490",
         "title": "Deadwax",
         "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
-        "rank": 20,
+        "rank": 19,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/deadwax",
         "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
         "imdb_id": "tt9018490",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt7406320",
+        "title": "Eli Roth's History of Horror",
+        "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
+        "rank": 20,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
+        "description": "An in-depth look at the history and pop cultural significance of horror films.",
+        "imdb_id": "tt7406320",
         "weeks_in_top10": null
       }
     ]
