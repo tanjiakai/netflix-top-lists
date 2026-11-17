@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-16T09:07:40+00:00",
+  "updated_at": "2026-11-17T10:20:23+00:00",
   "week": "2026-11-08",
   "catalogs": {
     "malaysia_movies": [
@@ -344,27 +344,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt14966898",
-        "title": "Late Night with the Devil",
-        "poster": "https://images.justwatch.com/poster/312745008/s718/late-night-with-the-devil.jpg",
-        "rank": 9,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/late-night-with-the-devil",
-        "description": "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation's living rooms.",
-        "imdb_id": "tt14966898",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt0095271",
         "title": "Halloween 4: The Return of Michael Myers",
         "poster": "https://images.justwatch.com/poster/253642214/s718/halloween-4-the-return-of-michael-myers.jpg",
-        "rank": 10,
+        "rank": 9,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/halloween-4-the-return-of-michael-myers",
         "description": "Ten years after his original massacre, the invalid Michael Myers awakens on Halloween Eve and returns to Haddonfield to kill his seven-year-old niece.",
         "imdb_id": "tt0095271",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt14966898",
+        "title": "Late Night with the Devil",
+        "poster": "https://images.justwatch.com/poster/312745008/s718/late-night-with-the-devil.jpg",
+        "rank": 10,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/late-night-with-the-devil",
+        "description": "A live broadcast of a late-night talk show in 1977 goes horribly wrong, unleashing evil into the nation's living rooms.",
+        "imdb_id": "tt14966898",
         "weeks_in_top10": null
       },
       {
@@ -416,27 +416,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt0200659",
-        "title": "Ghostwatch",
-        "poster": "https://images.justwatch.com/poster/302149912/s718/ghostwatch.jpg",
-        "rank": 15,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/ghostwatch",
-        "description": "On Halloween 1992, the BBC broadcasts an investigation into the supernatural, hosted by TV chat-show legend Michael Parkinson. Parky (assisted by Mike Smith, Sarah Greene and Craig Charles) and a camera crew attempt to discover the truth behind the most haunted house in Britain. This groundbreaking live television experiment does not go as planned, however.",
-        "imdb_id": "tt0200659",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt2321549",
         "title": "The Babadook",
         "poster": "https://images.justwatch.com/poster/305408904/s718/the-babadook.jpg",
-        "rank": 16,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-babadook",
         "description": "A grieving single mother and her child fall into a deep well of paranoia when an eerie children's book manifests in their home.",
         "imdb_id": "tt2321549",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt0200659",
+        "title": "Ghostwatch",
+        "poster": "https://images.justwatch.com/poster/302149912/s718/ghostwatch.jpg",
+        "rank": 16,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/ghostwatch",
+        "description": "On Halloween 1992, the BBC broadcasts an investigation into the supernatural, hosted by TV chat-show legend Michael Parkinson. Parky (assisted by Mike Smith, Sarah Greene and Craig Charles) and a camera crew attempt to discover the truth behind the most haunted house in Britain. This groundbreaking live television experiment does not go as planned, however.",
+        "imdb_id": "tt0200659",
         "weeks_in_top10": null
       },
       {
@@ -476,41 +476,41 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt3387520",
-        "title": "Scary Stories to Tell in the Dark",
-        "poster": "https://images.justwatch.com/poster/243056978/s718/scary-stories-to-tell-in-the-dark.jpg",
+        "id": "tt22375054",
+        "title": "Strange Darling",
+        "poster": "https://images.justwatch.com/poster/320091669/s718/strange-darling.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/scary-stories-to-tell-in-the-dark",
-        "description": "Mill Valley, Pennsylvania, Halloween night, 1968. After playing a joke on a school bully, Stella and her friends decide to sneak into a supposedly haunted house that once belonged to the powerful Bellows family, unleashing dark forces that they will be unable to control.",
-        "imdb_id": "tt3387520",
+        "url": "https://www.justwatch.com/us/movie/strange-darling",
+        "description": "Nothing is what it seems when a twisted one-night stand spirals into a serial killer's vicious murder spree.",
+        "imdb_id": "tt22375054",
         "weeks_in_top10": null
       }
     ],
     "shudder_horror_popular_series": [
       {
-        "id": "tt0096708",
-        "title": "Tales from the Crypt",
-        "poster": "https://images.justwatch.com/poster/174675389/s718/tales-from-the-crypt.jpg",
-        "rank": 1,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/tales-from-the-crypt",
-        "description": "\"Tales from the Crypt\" was a 1989 horror story anthology series based on the gruesome E.C. comic books of the 1950s presented by the legendary \"Crypt Keeper\", a sinister ghoul obsessed with gallows humor and horrific puns.",
-        "imdb_id": "tt0096708",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt2708480",
         "title": "The Terror",
         "poster": "https://images.justwatch.com/poster/56620971/s718/the-terror.jpg",
-        "rank": 2,
+        "rank": 1,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-terror",
         "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
         "imdb_id": "tt2708480",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt0096708",
+        "title": "Tales from the Crypt",
+        "poster": "https://images.justwatch.com/poster/174675389/s718/tales-from-the-crypt.jpg",
+        "rank": 2,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/tales-from-the-crypt",
+        "description": "\"Tales from the Crypt\" was a 1989 horror story anthology series based on the gruesome E.C. comic books of the 1950s presented by the legendary \"Crypt Keeper\", a sinister ghoul obsessed with gallows humor and horrific puns.",
+        "imdb_id": "tt0096708",
         "weeks_in_top10": null
       },
       {
@@ -744,22 +744,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt33270103",
-        "title": "Honey Bunch",
-        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
-        "rank": 2,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/honey-bunch",
-        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
-        "imdb_id": "tt33270103",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt37694048",
         "title": "New Group",
         "poster": "https://images.justwatch.com/poster/356621526/s718/new-group.jpg",
-        "rank": 3,
+        "rank": 2,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/new-group",
@@ -771,7 +759,7 @@
         "id": "tt32639175",
         "title": "Dolly",
         "poster": "https://images.justwatch.com/poster/336096254/s718/dolly.jpg",
-        "rank": 4,
+        "rank": 3,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/dolly",
@@ -783,12 +771,24 @@
         "id": "tt35050712",
         "title": "Saccharine",
         "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
-        "rank": 5,
+        "rank": 4,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/saccharine",
         "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
         "imdb_id": "tt35050712",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt33270103",
+        "title": "Honey Bunch",
+        "poster": "https://images.justwatch.com/poster/340729757/s718/honey-bunch.jpg",
+        "rank": 5,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/honey-bunch",
+        "description": "Diana's husband is taking her to an experimental trauma facility deep in the wilderness, but she can't remember why... As her memories begin to creep back in so do some unwelcome sinister truths about her marriage.",
+        "imdb_id": "tt33270103",
         "weeks_in_top10": null
       },
       {
@@ -804,22 +804,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt29550683",
-        "title": "Whistle",
-        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
-        "rank": 7,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/whistle-2026",
-        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
-        "imdb_id": "tt29550683",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt35670732",
         "title": "Penny Lane Is Dead",
         "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
-        "rank": 8,
+        "rank": 7,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
@@ -828,10 +816,46 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt29550683",
+        "title": "Whistle",
+        "poster": "https://images.justwatch.com/poster/343656655/s718/whistle-2026.jpg",
+        "rank": 8,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/whistle-2026",
+        "description": "When a misfit group of unwitting high school students stumbles upon a cursed Aztec Death Whistle, they discover that blowing it unleashes a terrifying sound that summons their future deaths to hunt them down.",
+        "imdb_id": "tt29550683",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt32358390",
+        "title": "The Cycle",
+        "poster": "https://images.justwatch.com/poster/353464933/s718/the-cycle-2026-1.jpg",
+        "rank": 9,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/the-cycle-2026-1",
+        "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
+        "imdb_id": "tt32358390",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt43739386",
+        "title": "V/H/S/Mixtape",
+        "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
+        "rank": 10,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
+        "description": "The ninth installment of the horror anthology franchise.",
+        "imdb_id": "tt43739386",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt36871027",
         "title": "Mother of Flies",
         "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
-        "rank": 9,
+        "rank": 11,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/mother-of-flies",
@@ -843,7 +867,7 @@
         "id": "tt14619456",
         "title": "Faces of Death",
         "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 10,
+        "rank": 12,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
@@ -852,34 +876,34 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt43739386",
-        "title": "V/H/S/Mixtape",
-        "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
-        "rank": 11,
+        "id": "tt35682658",
+        "title": "Infirmary",
+        "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
+        "rank": 13,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
-        "description": "The ninth installment of the horror anthology franchise.",
-        "imdb_id": "tt43739386",
+        "url": "https://www.justwatch.com/us/movie/infirmary",
+        "description": "A guard vanished on his first night at an old psych hospital in 2023. His bodycam footage shows unexplainable incidents that continue to baffle investigators.",
+        "imdb_id": "tt35682658",
         "weeks_in_top10": null
       },
       {
-        "id": "tt32358390",
-        "title": "The Cycle",
-        "poster": "https://images.justwatch.com/poster/353464933/s718/the-cycle-2026-1.jpg",
-        "rank": 12,
+        "id": "tt37538172",
+        "title": "Bodycam",
+        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-cycle-2026-1",
-        "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
-        "imdb_id": "tt32358390",
+        "url": "https://www.justwatch.com/us/movie/bodycam",
+        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+        "imdb_id": "tt37538172",
         "weeks_in_top10": null
       },
       {
         "id": "tt43712082",
         "title": "2026 Fangoria Chainsaw Awards",
         "poster": "https://images.justwatch.com/poster/355784210/s718/2026-fangoria-chainsaw-awards.jpg",
-        "rank": 13,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/2026-fangoria-chainsaw-awards",
@@ -891,7 +915,7 @@
         "id": "tt31474395",
         "title": "The Voices of Our Mother",
         "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
-        "rank": 14,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
@@ -900,22 +924,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tm3007395",
-        "title": "Curse of the Ghoul Logs",
-        "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
-        "rank": 15,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
-        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
-        "imdb_id": null,
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt34967068",
         "title": "Touch Me",
         "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
-        "rank": 16,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/touch-me-2026",
@@ -924,34 +936,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt34735922",
-        "title": "Bloody Tennis",
-        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
-        "rank": 17,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
-        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
-        "imdb_id": "tt34735922",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt35682658",
-        "title": "Infirmary",
-        "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
-        "rank": 18,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/infirmary",
-        "description": "A guard vanished on his first night at an old psych hospital in 2023. His bodycam footage shows unexplainable incidents that continue to baffle investigators.",
-        "imdb_id": "tt35682658",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt34383465",
         "title": "Nightborn",
         "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 19,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/nightborn",
@@ -960,15 +948,27 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37538172",
-        "title": "Bodycam",
-        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
+        "id": "tm3007395",
+        "title": "Curse of the Ghoul Logs",
+        "poster": "https://images.justwatch.com/poster/355558907/s718/curse-of-the-ghoul-logs.jpg",
+        "rank": 19,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/curse-of-the-ghoul-logs",
+        "description": "Halloween's favorite tradition goes post-apocalyptic with the Hallowarrior filmmakers and their trove of Junk O' Lanterns.",
+        "imdb_id": null,
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt34735922",
+        "title": "Bloody Tennis",
+        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
         "rank": 20,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bodycam",
-        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-        "imdb_id": "tt37538172",
+        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
+        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
+        "imdb_id": "tt34735922",
         "weeks_in_top10": null
       }
     ],
@@ -1190,27 +1190,27 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt2708480",
+        "title": "The Terror",
+        "poster": "https://images.justwatch.com/poster/56620971/s718/the-terror.jpg",
+        "rank": 19,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/the-terror",
+        "description": "A chilling anthology series featuring stories of people in terrifying situations inspired by true historical events.",
+        "imdb_id": "tt2708480",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt7406320",
         "title": "Eli Roth's History of Horror",
         "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
-        "rank": 19,
+        "rank": 20,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
         "description": "An in-depth look at the history and pop cultural significance of horror films.",
         "imdb_id": "tt7406320",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt9018490",
-        "title": "Deadwax",
-        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
-        "rank": 20,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/deadwax",
-        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
-        "imdb_id": "tt9018490",
         "weeks_in_top10": null
       }
     ]
