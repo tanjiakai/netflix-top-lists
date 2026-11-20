@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-19T09:58:50+00:00",
+  "updated_at": "2026-11-20T09:47:37+00:00",
   "week": "2026-11-15",
   "catalogs": {
     "malaysia_movies": [
@@ -186,15 +186,15 @@
         "weeks_in_top10": 5
       },
       {
-        "id": "tl-sunshine-through-the-rain",
+        "id": "tt36982492",
         "title": "Sunshine Through the Rain",
-        "poster": "https://image.tmdb.org/t/p/w500/pG00jI2UCm0Q6U9SDonIlvy3M3i.jpg",
+        "poster": "https://images.metahub.space/poster/small/tt36982492/img",
         "rank": 6,
         "type": "series",
         "region": "malaysia",
         "url": "https://www.netflix.com/tudum/top10/malaysia/tv",
         "description": "#6 on Netflix Malaysia - 1 week(s) in the Top 10",
-        "imdb_id": null,
+        "imdb_id": "tt36982492",
         "weeks_in_top10": 1
       },
       {
@@ -392,10 +392,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt16300962",
+        "title": "When Evil Lurks",
+        "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
+        "rank": 13,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
+        "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
+        "imdb_id": "tt16300962",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt3289956",
         "title": "The Autopsy of Jane Doe",
         "poster": "https://images.justwatch.com/poster/27130792/s718/the-autopsy-of-jane-doe.jpg",
-        "rank": 13,
+        "rank": 14,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-autopsy-of-jane-doe",
@@ -407,7 +419,7 @@
         "id": "tt30691214",
         "title": "Forbidden Fruits",
         "poster": "https://images.justwatch.com/poster/344650962/s718/forbidden-fruits-2026.jpg",
-        "rank": 14,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/forbidden-fruits-2026",
@@ -419,7 +431,7 @@
         "id": "tt2321549",
         "title": "The Babadook",
         "poster": "https://images.justwatch.com/poster/305408904/s718/the-babadook.jpg",
-        "rank": 15,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-babadook",
@@ -431,7 +443,7 @@
         "id": "tt0200659",
         "title": "Ghostwatch",
         "poster": "https://images.justwatch.com/poster/302149912/s718/ghostwatch.jpg",
-        "rank": 16,
+        "rank": 17,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/ghostwatch",
@@ -443,24 +455,12 @@
         "id": "tt12749596",
         "title": "Host",
         "poster": "https://images.justwatch.com/poster/197286564/s718/host.jpg",
-        "rank": 17,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/host",
         "description": "Six friends hire a medium to hold a séance via Zoom during lockdown — but they get far more than they bargained for as things quickly go wrong. When an evil spirit starts invading their homes, they begin to realise they might not survive the night.",
         "imdb_id": "tt12749596",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt16300962",
-        "title": "When Evil Lurks",
-        "poster": "https://images.justwatch.com/poster/350201417/s718/when-evil-lurks.jpg",
-        "rank": 18,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/when-evil-lurks",
-        "description": "When brothers Pedro and Jimi discover that a demonic infection has been festering in a nearby farmhouse, they attempt to evict the victim from their land. Failing to adhere to the proper rites of exorcism, their reckless actions inadvertently trigger an epidemic of possessions across their rural community.",
-        "imdb_id": "tt16300962",
         "weeks_in_top10": null
       },
       {
@@ -550,10 +550,22 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt16294502",
+        "title": "Mayfair Witches",
+        "poster": "https://images.justwatch.com/poster/302268558/s718/anne-rices-mayfair-witches.jpg",
+        "rank": 6,
+        "type": "series",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/tv-show/anne-rices-mayfair-witches",
+        "description": "An intuitive young neurosurgeon discovers that she is the unlikely heir to a family of witches. As she grapples with her newfound powers, she must contend with a sinister presence that has haunted her family for generations.",
+        "imdb_id": "tt16294502",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt32544507",
         "title": "The Creep Tapes",
         "poster": "https://images.justwatch.com/poster/322686080/s718/the-creep-tapes.jpg",
-        "rank": 6,
+        "rank": 7,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-creep-tapes",
@@ -565,24 +577,12 @@
         "id": "ts529925",
         "title": "The Terror: Devil in Silver",
         "poster": "https://images.justwatch.com/poster/346190367/s718/the-terror-devil-in-silver.jpg",
-        "rank": 7,
+        "rank": 8,
         "type": "series",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/tv-show/the-terror-devil-in-silver",
         "description": "Wrongfully committed to New Hyde Psychiatric Hospital, one man faces secretive doctors, dangerous patients, and something even worse …",
         "imdb_id": null,
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt16294502",
-        "title": "Mayfair Witches",
-        "poster": "https://images.justwatch.com/poster/302268558/s718/anne-rices-mayfair-witches.jpg",
-        "rank": 8,
-        "type": "series",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/anne-rices-mayfair-witches",
-        "description": "An intuitive young neurosurgeon discovers that she is the unlikely heir to a family of witches. As she grapples with her newfound powers, she must contend with a sinister presence that has haunted her family for generations.",
-        "imdb_id": "tt16294502",
         "weeks_in_top10": null
       },
       {
@@ -744,15 +744,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35670732",
-        "title": "Penny Lane Is Dead",
-        "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
+        "id": "tt36647890",
+        "title": "The Mortuary Assistant",
+        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
         "rank": 2,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
-        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
-        "imdb_id": "tt35670732",
+        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
+        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
+        "imdb_id": "tt36647890",
         "weeks_in_top10": null
       },
       {
@@ -780,15 +780,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt35050712",
-        "title": "Saccharine",
-        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
+        "id": "tt35670732",
+        "title": "Penny Lane Is Dead",
+        "poster": "https://images.justwatch.com/poster/355002762/s718/penny-lane-is-dead.jpg",
         "rank": 5,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/saccharine",
-        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
-        "imdb_id": "tt35050712",
+        "url": "https://www.justwatch.com/us/movie/penny-lane-is-dead",
+        "description": "Set in 1986, during a scorching Aussie summer, three best friends' celebration at a beach house turns into a blood-soaked fight for survival when a prank goes horribly wrong.",
+        "imdb_id": "tt35670732",
         "weeks_in_top10": null
       },
       {
@@ -804,15 +804,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt36647890",
-        "title": "The Mortuary Assistant",
-        "poster": "https://images.justwatch.com/poster/339866342/s718/the-mortuary-assistant.jpg",
+        "id": "tt35050712",
+        "title": "Saccharine",
+        "poster": "https://images.justwatch.com/poster/350189298/s718/saccharine.jpg",
         "rank": 7,
         "type": "movie",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/the-mortuary-assistant",
-        "description": "Follows Rebecca Owens, a mortuary science graduate who takes a night job at River Fields Mortuary. What begins as a routine job soon turns sinister as she faces terrifying supernatural forces.",
-        "imdb_id": "tt36647890",
+        "url": "https://www.justwatch.com/us/movie/saccharine",
+        "description": "After succumbing to an obscure weight-loss craze involving the eating of human ashes, lovelorn medical student Hana finds herself haunted by the ghost of the person she's eating.",
+        "imdb_id": "tt35050712",
         "weeks_in_top10": null
       },
       {
@@ -828,22 +828,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt43739386",
-        "title": "V/H/S/Mixtape",
-        "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
-        "rank": 9,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
-        "description": "The ninth installment of the horror anthology franchise.",
-        "imdb_id": "tt43739386",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt14619456",
         "title": "Faces of Death",
         "poster": "https://images.justwatch.com/poster/341993057/s718/faces-of-death-2026-1.jpg",
-        "rank": 10,
+        "rank": 9,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/faces-of-death-2026-1",
@@ -852,27 +840,39 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt36871027",
-        "title": "Mother of Flies",
-        "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
-        "rank": 11,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/mother-of-flies",
-        "description": "When a young woman faces a deadly diagnosis, she seeks dark magic from a witch in the woods - but every cure has costs.",
-        "imdb_id": "tt36871027",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt32358390",
         "title": "The Cycle",
         "poster": "https://images.justwatch.com/poster/353464933/s718/the-cycle-2026-1.jpg",
-        "rank": 12,
+        "rank": 10,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-cycle-2026-1",
         "description": "A daughter unravels her father's dark past after his body, missing for 36 years, is found at a horrific crime scene.",
         "imdb_id": "tt32358390",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt43739386",
+        "title": "V/H/S/Mixtape",
+        "poster": "https://images.justwatch.com/poster/347850217/s718/v-h-s-mixtape.jpg",
+        "rank": 11,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/v-h-s-mixtape",
+        "description": "The ninth installment of the horror anthology franchise.",
+        "imdb_id": "tt43739386",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt36871027",
+        "title": "Mother of Flies",
+        "poster": "https://images.justwatch.com/poster/340036700/s718/mother-of-flies.jpg",
+        "rank": 12,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/mother-of-flies",
+        "description": "When a young woman faces a deadly diagnosis, she seeks dark magic from a witch in the woods - but every cure has costs.",
+        "imdb_id": "tt36871027",
         "weeks_in_top10": null
       },
       {
@@ -900,46 +900,10 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt37538172",
-        "title": "Bodycam",
-        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
-        "rank": 15,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bodycam",
-        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
-        "imdb_id": "tt37538172",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt35682658",
-        "title": "Infirmary",
-        "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
-        "rank": 16,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/infirmary",
-        "description": "A guard vanished on his first night at an old psych hospital in 2023. His bodycam footage shows unexplainable incidents that continue to baffle investigators.",
-        "imdb_id": "tt35682658",
-        "weeks_in_top10": null
-      },
-      {
-        "id": "tt34735922",
-        "title": "Bloody Tennis",
-        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
-        "rank": 17,
-        "type": "movie",
-        "region": "shudder",
-        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
-        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
-        "imdb_id": "tt34735922",
-        "weeks_in_top10": null
-      },
-      {
         "id": "tt31474395",
         "title": "The Voices of Our Mother",
         "poster": "https://images.justwatch.com/poster/345450682/s718/the-voices-of-our-mother.jpg",
-        "rank": 18,
+        "rank": 15,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/the-voices-of-our-mother",
@@ -951,7 +915,7 @@
         "id": "tt34383465",
         "title": "Nightborn",
         "poster": "https://images.justwatch.com/poster/348491054/s718/nightborn.jpg",
-        "rank": 19,
+        "rank": 16,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/nightborn",
@@ -960,15 +924,51 @@
         "weeks_in_top10": null
       },
       {
+        "id": "tt37538172",
+        "title": "Bodycam",
+        "poster": "https://images.justwatch.com/poster/343077079/s718/bodycam.jpg",
+        "rank": 17,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bodycam",
+        "description": "A call to a quiet suburban home unleashes unthinkable carnage when two officers mistakenly shoot a man and his infant child, spiraling the tragedy into a fierce, unrelenting fall into the unknown.",
+        "imdb_id": "tt37538172",
+        "weeks_in_top10": null
+      },
+      {
         "id": "tt34967068",
         "title": "Touch Me",
         "poster": "https://images.justwatch.com/poster/343792269/s718/touch-me-2026.jpg",
-        "rank": 20,
+        "rank": 18,
         "type": "movie",
         "region": "shudder",
         "url": "https://www.justwatch.com/us/movie/touch-me-2026",
         "description": "Two codependent best friends become addicted to the heroin-like touch of an alien narcissist who may or may not be trying to take over the world.",
         "imdb_id": "tt34967068",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt34735922",
+        "title": "Bloody Tennis",
+        "poster": "https://images.justwatch.com/poster/355056256/s718/bloody-tennis.jpg",
+        "rank": 19,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/bloody-tennis",
+        "description": "Follows Sophie, who is admitted to an elite tennis academy hidden in the South of Europe, where she must contend with fierce competition and the school's increasingly sinister undercurrents.",
+        "imdb_id": "tt34735922",
+        "weeks_in_top10": null
+      },
+      {
+        "id": "tt35682658",
+        "title": "Infirmary",
+        "poster": "https://images.justwatch.com/poster/341949441/s718/infirmary.jpg",
+        "rank": 20,
+        "type": "movie",
+        "region": "shudder",
+        "url": "https://www.justwatch.com/us/movie/infirmary",
+        "description": "A guard vanished on his first night at an old psych hospital in 2023. His bodycam footage shows unexplainable incidents that continue to baffle investigators.",
+        "imdb_id": "tt35682658",
         "weeks_in_top10": null
       }
     ],
@@ -1190,15 +1190,15 @@
         "weeks_in_top10": null
       },
       {
-        "id": "tt9018490",
-        "title": "Deadwax",
-        "poster": "https://images.justwatch.com/poster/174946429/s718/deadwax.jpg",
+        "id": "tt7406320",
+        "title": "Eli Roth's History of Horror",
+        "poster": "https://images.justwatch.com/poster/232927371/s718/eli-roths-history-of-horror.jpg",
         "rank": 19,
         "type": "series",
         "region": "shudder",
-        "url": "https://www.justwatch.com/us/tv-show/deadwax",
-        "description": "Etta Pryce, a vinyl tracker, is hired by a rich collector to hunt a legendary rare record that has driven its owners mad and killed anyone that has dared to play it.",
-        "imdb_id": "tt9018490",
+        "url": "https://www.justwatch.com/us/tv-show/eli-roths-history-of-horror",
+        "description": "An in-depth look at the history and pop cultural significance of horror films.",
+        "imdb_id": "tt7406320",
         "weeks_in_top10": null
       },
       {
